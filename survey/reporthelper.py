@@ -41,6 +41,11 @@ def getRecommendations(user: SurveyUser, lang: str):
                 category_name = categories_translations[
                     rec.forAnswer.question.service_category.titleKey
                 ]
+
+                transalted_recommendation = recommendations_translations[rec.textKey]
+                if is_recommendation_already_added(transalted_recommendation, finalReportRecs):
+                    continue
+
                 if category_name not in finalReportRecs:
                     finalReportRecs[category_name] = []
                 finalReportRecs[category_name].append(
@@ -49,7 +54,14 @@ def getRecommendations(user: SurveyUser, lang: str):
 
     return finalReportRecs
 
+def is_recommendation_already_added(recommendation: str, recommendations: dict):
+    if recommendations:
+        for category, recommendations_per_category in recommendations.items():
+            if recommendation in recommendations_per_category:
+                return True
 
+    return False
+    
 def createAndSendReport(user: SurveyUser, lang: str):
     """Generates the report as a .docx file, then returns it to the view.
     """
