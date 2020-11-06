@@ -1,9 +1,7 @@
-# Fit4Cybersecurity
+# Fit4GDPR
 
-Fit4Cybersecurity is a self-assessment tool by [CASES](https://www.cases.lu)
+Fit4GDPR is a self-assessment tool by [CASES](https://www.cases.lu)
 to help business owners implement a better cybersecurity strategy.
-
-The official CASES instance is available [here](https://startup.cases.lu).
 
 
 ## Deployment
@@ -27,8 +25,8 @@ $ pyenv versions # check
 
 
 ```bash
-$ git clone https://github.com/CASES-LU/Fit4Cybersecurity.git
-$ cd Fit4Cybersecurity/
+$ git clone https://github.com/CASES-LU/fit4gdpr.git
+$ cd fit4gdpr/
 $ npm install
 $ poetry install
 ```
@@ -75,7 +73,7 @@ be *password*.
 ## Upgrading the application
 
 ```bash
-$ cd Fit4Cybersecurity/
+$ cd fit4gdpr/
 $ git pull origin master
 $ poetry run python manage.py migrate
 $ poetry run python manage.py compilemessages
