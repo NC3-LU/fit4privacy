@@ -61,7 +61,7 @@ def is_recommendation_already_added(recommendation: str, recommendations: dict):
                 return True
 
     return False
-    
+
 def createAndSendReport(user: SurveyUser, lang: str):
     """Generates the report as a .docx file, then returns it to the view.
     """
@@ -256,14 +256,14 @@ def createAndSendReport(user: SurveyUser, lang: str):
     section = doc.sections[0]
     header = section.header
     paragraph = header.paragraphs[0]
-    paragraph.text = str(date.today()) + "\t\tFit4Cybersecurity"
+    paragraph.text = str(date.today()) + "\t\tFit4GDPR"
     paragraph.style = doc.styles["Header"]
 
     response = HttpResponse(
         content_type="application/vnd.openxmlformats-officedocument.wordprocessingml.document"
     )
     response["Content-Disposition"] = (
-        "attachment; filename=Report_Fit4Cybersecurity_"
+        "attachment; filename=Report_Fit4GDPR_"
         + str(date.today())
         + "_"
         + lang
