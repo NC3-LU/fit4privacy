@@ -207,7 +207,7 @@ def get_answer_choices(survey_question: SurveyQuestion, user_lang: str):
                 format_html(
                     "{}{}",
                     mark_safe('<span class="checkmark"></span>'),
-                    translation_key[0].text,
+                    mark_safe(translation_key[0].text),
                 ),
             )
         )
