@@ -15,6 +15,27 @@ from survey.globals import TRANSLATION_UI
 from utils.radarFactory import radar_factory
 import matplotlib.pyplot as plt
 
+# remove html tags from the report https://stackoverflow.com/questions/753052/strip-html-from-strings-in-python
+from io import StringIO
+from html.parser import HTMLParser
+
+class MLStripper(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.reset()
+        self.strict = False
+        self.convert_charrefs= True
+        self.text = StringIO()
+    def handle_data(self, d):
+        self.text.write(d)
+    def get_data(self):
+        return self.text.getvalue()
+
+def strip_tags(html):
+    s = MLStripper()
+    s.feed(html)
+    return s.get_data()
+
 
 def getRecommendations(user: SurveyUser, lang: str):
     allAnswers = SurveyQuestionAnswer.objects.all().order_by(
@@ -190,7 +211,7 @@ def createAndSendReport(user: SurveyUser, lang: str):
         point_number = 1
         for recommendation in items:
             doc.add_paragraph(
-                str(point_number) + ". " + recommendation, "List Paragraph"
+                str(point_number) + ". " + strip_tags(recommendation), "List Paragraph"
             )
             point_number += 1
 
@@ -208,7 +229,7 @@ def createAndSendReport(user: SurveyUser, lang: str):
         table.autofit = False
         hdr_cells = table.rows[0].cells
         hdr_cells[0].text = str(index + 1)
-        hdr_cells[1].text = questions_translations[question.titleKey]
+        hdr_cells[1].text = strip_tags(questions_translations[question.titleKey])
 
         bX = hdr_cells[0].paragraphs[0].runs[0]
         bX.font.bold = True
@@ -236,7 +257,7 @@ def createAndSendReport(user: SurveyUser, lang: str):
             else:
                 row_cells[0].text = " "
 
-            row_cells[1].text = answers_translations[answer.answerKey]
+            row_cells[1].text = strip_tags(answers_translations[answer.answerKey])
 
             if user_answer.uvalue > 0:
                 bX = row_cells[1].paragraphs[0].runs[0]
