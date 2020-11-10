@@ -61,7 +61,7 @@ msgstr ""
 
 #: templates/survey/index.html:18
 msgid ""
-"Assuming your company is processing personal data and has its establishment in the EU/or is offering goods or services to individuals in the Union, or is monitoring their behavior that is taking place within the Union, please answer the following questions (See <a href='https://www.privacy-regulation.eu/en/article-3-territorial-scope-GDPR.htm'>GDPR Article 3</a>). These answers will be useful to provide you with more specific recommendations, once the self-assessment form has been filed."
+"Assuming your company is processing personal data and has its establishment in the EU/or is offering goods or services to individuals in the Union, or is monitoring their behavior that is taking place within the Union, please answer the following questions (See <a href='https://www.privacy-regulation.eu/en/article-3-territorial-scope-GDPR.htm' target='_blank'>GDPR Article 3</a>). These answers will be useful to provide you with more specific recommendations, once the self-assessment form has been filed."
 msgstr ""
 "Assuming your company is processing personal data and has its establishment in the EU/or is offering goods or services to individuals in the Union, or is monitoring their behavior that is taking place within the Union, please answer the following questions. These answers will be useful to provide you with more specific recommendations, once the self-assessment form has been filed."
 #: templates/survey/index.html:51
