@@ -278,7 +278,7 @@ INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q0
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A003', 'It is needed but let the data privacy responsible handle it, it is his/her job.', 'fr', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A004', 'We have started inventorying but we do not have a full record of processing activities yet.', 'fr', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A005', 'We need it and we do have a full record of processing activities.', 'fr', 'A');
-
+   
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004', 'Have you updated your website with respect to data protection, after 25th May 2018? (e.g., anything related to the privacy notice, GDPR disclaimer, cookies banners, etc)', 'fr', 'Q');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004A001', 'No, as we don’t have a website.', 'fr', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004A002', 'No, we have had no change on the website yet related to GDPR.', 'fr', 'A');
@@ -325,7 +325,7 @@ INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q0
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010A002', 'We don’t yet have one as we are unsure if we need a DPO.', 'fr', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010A003', 'We have an official DPO.', 'fr', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010A003', 'We have a privacy responsible but not a formal DPO.', 'fr', 'A');
-
+    
 
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011', 'What kind of risk analyses have you performed in what concerns privacy/GDPR risks?', 'fr', 'Q');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A001', 'None whatsoever, as we have no personal data.', 'fr', 'A');
@@ -363,13 +363,13 @@ INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q0
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q016A001', 'Never or not really.', 'fr', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q016A002', 'One time, when they are hired.', 'fr', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q016A003', 'We train them periodically.', 'fr', 'A');
-
+ 
  INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q017', 'To what extent are the rules (procedures / guidelines / good practices) concerning information security and privacy in your organisation written and known to your employees?', 'fr', 'Q');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q017A001', 'They are not written.', 'fr', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q017A002', 'They were written some time ago, but not known to all employees, and not up to date.', 'fr', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q017A003', 'They are written, approved by the management, known from all the employees and re-viewed periodically.', 'fr', 'A');
-
-
+ 
+ 
 
 -- ANSWERS IN EN
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001', 'If your company processes personal data, how much personal data (i.e. of how many data subjects, data quantity per data subject on average) does it process:', 'en', 'Q');
@@ -393,7 +393,7 @@ INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q0
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A003', 'It is needed but let the data privacy responsible handle it, it is his/her job.', 'en', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A004', 'We have started inventorying but we do not have a full record of processing activities yet.', 'en', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A005', 'We need it and we do have a full record of processing activities.', 'en', 'A');
-
+   
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004', 'Have you updated your website with respect to data protection, after 25th May 2018? (e.g., anything related to the privacy notice, GDPR disclaimer, cookies banners, etc)', 'en', 'Q');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004A001', 'No, as we don’t have a website.', 'en', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004A002', 'No, we have had no change on the website yet related to GDPR.', 'en', 'A');
@@ -440,7 +440,7 @@ INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q0
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010A002', 'We don’t yet have one as we are unsure if we need a DPO.', 'en', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010A003', 'We have an official DPO.', 'en', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010A003', 'We have a privacy responsible but not a formal DPO.', 'en', 'A');
-
+    
 
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011', 'What kind of risk analyses have you performed in what concerns privacy/GDPR risks?', 'en', 'Q');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A001', 'None whatsoever, as we have no personal data.', 'en', 'A');
@@ -478,12 +478,12 @@ INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q0
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q016A001', 'Never or not really.', 'en', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q016A002', 'One time, when they are hired.', 'en', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q016A003', 'We train them periodically.', 'en', 'A');
-
+ 
  INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q017', 'To what extent are the rules (procedures / guidelines / good practices) concerning information security and privacy in your organisation written and known to your employees?', 'en', 'Q');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q017A001', 'They are not written.', 'en', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q017A002', 'They were written some time ago, but not known to all employees, and not up to date.', 'en', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q017A003', 'They are written, approved by the management, known from all the employees and re-viewed periodically.', 'en', 'A');
-
+ 
 
 -- ANSWERS IN DE
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001', 'If your company processes personal data, how much personal data (i.e. of how many data subjects, data quantity per data subject on average) does it process:', 'de', 'Q');
@@ -507,7 +507,7 @@ INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q0
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A003', 'It is needed but let the data privacy responsible handle it, it is his/her job.', 'de', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A004', 'We have started inventorying but we do not have a full record of processing activities yet.', 'de', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A005', 'We need it and we do have a full record of processing activities.', 'de', 'A');
-
+   
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004', 'Have you updated your website with respect to data protection, after 25th May 2018? (e.g., anything related to the privacy notice, GDPR disclaimer, cookies banners, etc)', 'de', 'Q');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004A001', 'No, as we don’t have a website.', 'de', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004A002', 'No, we have had no change on the website yet related to GDPR.', 'de', 'A');
@@ -553,7 +553,7 @@ INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q0
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010A002', 'We don’t yet have one as we are unsure if we need a DPO.', 'de', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010A003', 'We have an official DPO.', 'de', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010A003', 'We have a privacy responsible but not a formal DPO.', 'de', 'A');
-
+    
 
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011', 'What kind of risk analyses have you performed in what concerns privacy/GDPR risks?', 'de', 'Q');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A001', 'None whatsoever, as we have no personal data.', 'de', 'A');
@@ -591,12 +591,12 @@ INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q0
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q016A001', 'Never or not really.', 'de', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q016A002', 'One time, when they are hired.', 'de', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q016A003', 'We train them periodically.', 'de', 'A');
-
+ 
  INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q017', 'To what extent are the rules (procedures / guidelines / good practices) concerning information security and privacy in your organisation written and known to your employees?', 'de', 'Q');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q017A001', 'They are not written.', 'de', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q017A002', 'They were written some time ago, but not known to all employees, and not up to date.', 'de', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q017A003', 'They are written, approved by the management, known from all the employees and re-viewed periodically.', 'de', 'A');
-
+ 
  -------------- Recommendations IN FR
 -- FR
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001REC001', 'If your company has employees or clients or both, it certainly processes personal data. Therefore, it must be subject to GDPR.', 'fr', 'R');
@@ -650,7 +650,7 @@ INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q0
 
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012REC001', 'As per GDPR’s Art. 24 and 26, you are expected to know if your role is that of a data con-troller or data processor, and protect personal data as such. It is expected that the re-sponsibilities of the other entities that provide you with personal data, or that you provide with personal data, are clear and in line with GDPR requirements.  Therefore you should review and update all your contracts with data processors if you are the data controller (because it is your responsibility as a controller). For the other contracts, you should review them to have the knowledge of your responsibilities (e.g., that you protect personal data and cooperate with the data controller wherever required). ', 'fr', 'R');
 
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013REC001', 'Privacy by default and by design refer to implementing privacy into a pro-ject/product/service from the earliest possible stage of design, before the processing op-erations are even implemented. By default, companies/organisations should ensure that personal data is processed with the highest privacy protection (for example only the data necessary should be processed, short storage period, limited accessibility) so that by default personal data isn’t made accessible to an indefinite number of persons (‘data protection by default’). In short, it is easier to put something in place before, than to fix leaks or breaches afterwards.', 'fr', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013REC001', 'Privacy by default and by design refer to implementing privacy into a pro-ject/product/service from the earliest possible stage of design, before the processing op-erations are even implemented. By default, companies/organisations should ensure that personal data is processed with the highest privacy protection (for example only the data necessary should be processed, short storage period, limited accessibility) so that by default personal data isn’t made accessible to an indefinite number of persons (also known as data protection by default). In short, it is easier to put something in place before, than to fix leaks or breaches afterwards.', 'fr', 'R');
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013REC002', 'Some procedural documents to mention data privacy by design and by default, are good to have. However, they must be simple enough to read and implement, so that they are understood and applied. Therefore it would make sense to have a standard but simple update that ensures that, when a project starts, there is a discussion about what kind of personal data would be processed and if something specific might have to be put in place to protect such data from loss or disclosure. ', 'fr', 'R');
 
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q014REC001', 'GDPR applies to personal data of Europeans, worldwide. There have been discussions on the importance of protecting personal data outside of the EEA, and the data protection board (EPDB) insisted on the importance to have legal mechanisms (but also technical) to ensure that data is used for the same purpose and in the same way when transferred overseas. Using cloud services located outside of Europe are a typical example. A num-ber of legal options are possible, and it is expected from the data controller to choose such mechanisms to ensure data protection towards data subjects, when data travels outside the borders of the EEA. ', 'fr', 'R');
@@ -669,7 +669,7 @@ INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q0
 -- RECOMMENDATIONS IN EN
 
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001REC001', 'If your company has employees or clients or both, it certainly processes personal data. Therefore, it must be subject to GDPR.', 'en', 'R');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001REC002', 'Your company seems to be processing a medium/large amount of personal data, therefore consider putting the people and resources in place to quantify the risks relative to GDPR. ', 'en', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001REC002', 'Your company seems to be processing a medium/large amount of personal data, therefore consider putting the people and resources in place to quantify the risks relative to GDPR.', 'en', 'R');
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001REC003', 'Your company doesn’t seem to process data about a lot of data subjects - either employees or clients - but even if a DPO might not be mandatory, consider appointing at least a data privacy responsible and taking the first steps towards GDPR: understanding the data being processed, and the risks.', 'en', 'R');
 
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002REC001', 'You should investigate if such personal data is being processed by your company. The reason is that this type of personal data is considered by GDPR to be more dangerous to process (from the point of view of the data subject) than other type of personal data. Therefore, it requires a higher level of protection.', 'en', 'R');
@@ -716,7 +716,7 @@ INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q0
 
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012REC001', 'As per GDPR’s Art. 24 and 26, you are expected to know if your role is that of a data con-troller or data processor, and protect personal data as such. It is expected that the re-sponsibilities of the other entities that provide you with personal data, or that you provide with personal data, are clear and in line with GDPR requirements.  Therefore you should review and update all your contracts with data processors if you are the data controller (because it is your responsibility as a controller). For the other contracts, you should review them to have the knowledge of your responsibilities (e.g., that you protect personal data and cooperate with the data controller wherever required). ', 'en', 'R');
 
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013REC001', 'Privacy by default and by design refer to implementing privacy into a pro-ject/product/service from the earliest possible stage of design, before the processing op-erations are even implemented. By default, companies/organisations should ensure that personal data is processed with the highest privacy protection (for example only the data necessary should be processed, short storage period, limited accessibility) so that by default personal data isn’t made accessible to an indefinite number of persons (‘data protection by default’). In short, it is easier to put something in place before, than to fix leaks or breaches afterwards.', 'en', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013REC001', 'Privacy by default and by design refer to implementing privacy into a pro-ject/product/service from the earliest possible stage of design, before the processing op-erations are even implemented. By default, companies/organisations should ensure that personal data is processed with the highest privacy protection (for example only the data necessary should be processed, short storage period, limited accessibility) so that by default personal data isn’t made accessible to an indefinite number of persons (also known as data protection by default). In short, it is easier to put something in place before, than to fix leaks or breaches afterwards.', 'en', 'R');
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013REC002', 'Some procedural documents to mention data privacy by design and by default, are good to have. However, they must be simple enough to read and implement, so that they are understood and applied. Therefore it would make sense to have a standard but simple update that ensures that, when a project starts, there is a discussion about what kind of personal data would be processed and if something specific might have to be put in place to protect such data from loss or disclosure. ', 'en', 'R');
 
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q014REC001', 'GDPR applies to personal data of Europeans, worldwide. There have been discussions on the importance of protecting personal data outside of the EEA, and the data protection board (EPDB) insisted on the importance to have legal mechanisms (but also technical) to ensure that data is used for the same purpose and in the same way when transferred overseas. Using cloud services located outside of Europe are a typical example. A num-ber of legal options are possible, and it is expected from the data controller to choose such mechanisms to ensure data protection towards data subjects, when data travels outside the borders of the EEA. ', 'en', 'R');
@@ -780,7 +780,7 @@ INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q0
 
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012REC001', 'As per GDPR’s Art. 24 and 26, you are expected to know if your role is that of a data con-troller or data processor, and protect personal data as such. It is expected that the re-sponsibilities of the other entities that provide you with personal data, or that you provide with personal data, are clear and in line with GDPR requirements.  Therefore you should review and update all your contracts with data processors if you are the data controller (because it is your responsibility as a controller). For the other contracts, you should review them to have the knowledge of your responsibilities (e.g., that you protect personal data and cooperate with the data controller wherever required). ', 'de', 'R');
 
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013REC001', 'Privacy by default and by design refer to implementing privacy into a pro-ject/product/service from the earliest possible stage of design, before the processing op-erations are even implemented. By default, companies/organisations should ensure that personal data is processed with the highest privacy protection (for example only the data necessary should be processed, short storage period, limited accessibility) so that by default personal data isn’t made accessible to an indefinite number of persons (‘data protection by default’). In short, it is easier to put something in place before, than to fix leaks or breaches afterwards.', 'de', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013REC001', 'Privacy by default and by design refer to implementing privacy into a pro-ject/product/service from the earliest possible stage of design, before the processing op-erations are even implemented. By default, companies/organisations should ensure that personal data is processed with the highest privacy protection (for example only the data necessary should be processed, short storage period, limited accessibility) so that by default personal data isn’t made accessible to an indefinite number of persons (data protection by default’). In short, it is easier to put something in place before, than to fix leaks or breaches afterwards.', 'de', 'R');
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013REC002', 'Some procedural documents to mention data privacy by design and by default, are good to have. However, they must be simple enough to read and implement, so that they are understood and applied. Therefore it would make sense to have a standard but simple update that ensures that, when a project starts, there is a discussion about what kind of personal data would be processed and if something specific might have to be put in place to protect such data from loss or disclosure. ', 'de', 'R');
 
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q014REC001', 'GDPR applies to personal data of Europeans, worldwide. There have been discussions on the importance of protecting personal data outside of the EEA, and the data protection board (EPDB) insisted on the importance to have legal mechanisms (but also technical) to ensure that data is used for the same purpose and in the same way when transferred overseas. Using cloud services located outside of Europe are a typical example. A num-ber of legal options are possible, and it is expected from the data controller to choose such mechanisms to ensure data protection towards data subjects, when data travels outside the borders of the EEA. ', 'de', 'R');
@@ -793,3 +793,6 @@ INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q0
 
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q017REC001', 'Consider to write some of the rules / guidelines / good practices, in order to ensure that your employees know where to look for references, and act in the same way when there is a problem. The management should approve these documents and they should be known by employees.', 'de', 'R');
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q017REC002', 'Consider to update the written practices / guidelines / procedures that your employees can access and use. The reason is that technology and information security evolves over time, just as the notion of “Secure passwords” and “good practices”. The management should approve these documents and they should be known by employees. ', 'de', 'R');
+
+
+
