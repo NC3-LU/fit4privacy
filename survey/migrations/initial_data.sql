@@ -1,655 +1,798 @@
 /* survey_surveyquestionservicecategory */
 INSERT INTO "survey_surveyquestionservicecategory" ("id", "titleKey") VALUES (1, 'SERVCAT001DATA');
-INSERT INTO "survey_surveyquestionservicecategory" ("id", "titleKey") VALUES (2, 'SERVCAT002BP');
-INSERT INTO "survey_surveyquestionservicecategory" ("id", "titleKey") VALUES (3, 'SERVCAT003THI');
-INSERT INTO "survey_surveyquestionservicecategory" ("id", "titleKey") VALUES (4, 'SERVCAT004YOU');
+INSERT INTO "survey_surveyquestionservicecategory" ("id", "titleKey") VALUES (2, 'SERVCAT002ROPA');
+INSERT INTO "survey_surveyquestionservicecategory" ("id", "titleKey") VALUES (3, 'SERVCAT003TRANSS');
+INSERT INTO "survey_surveyquestionservicecategory" ("id", "titleKey") VALUES (4, 'SERVCAT004PRINC');
 INSERT INTO "survey_surveyquestionservicecategory" ("id", "titleKey") VALUES (5, 'SERVCAT005BRE');
-INSERT INTO "survey_surveyquestionservicecategory" ("id", "titleKey") VALUES (6, 'SERVCAT006DPIA');
-INSERT INTO "survey_surveyquestionservicecategory" ("id", "titleKey") VALUES (7, 'SERVCAT007DPO');
-INSERT INTO "survey_surveyquestionservicecategory" ("id", "titleKey") VALUES (8, 'SERVCAT008TRAN');
-INSERT INTO "survey_surveyquestionservicecategory" ("id", "titleKey") VALUES (9, 'SERVCAT009SAN');
+INSERT INTO "survey_surveyquestionservicecategory" ("id", "titleKey") VALUES (6, 'SERVCAT006RIGHTS');
+INSERT INTO "survey_surveyquestionservicecategory" ("id", "titleKey") VALUES (7, 'SERVCAT007RISKS');
+INSERT INTO "survey_surveyquestionservicecategory" ("id", "titleKey") VALUES (8, 'SERVCAT008INFOSEC');
 
 /* survey_surveysection */
-INSERT INTO "survey_surveysection" ("id", "sectionTitleKey") VALUES (1, 'SECTION001PROC');
-INSERT INTO "survey_surveysection" ("id", "sectionTitleKey") VALUES (2, 'SECTION002THIRD');
-INSERT INTO "survey_surveysection" ("id", "sectionTitleKey") VALUES (3, 'SECTION003BP');
-INSERT INTO "survey_surveysection" ("id", "sectionTitleKey") VALUES (4, 'SECTION004SAN');
-INSERT INTO "survey_surveysection" ("id", "sectionTitleKey") VALUES (5, 'SECTION005TRAN');
+INSERT INTO "survey_surveysection" ("id", "sectionTitleKey") VALUES (1, 'SECTION001DATAM');
+INSERT INTO "survey_surveysection" ("id", "sectionTitleKey") VALUES (2, 'SECTION002TRANS');
+INSERT INTO "survey_surveysection" ("id", "sectionTitleKey") VALUES (3, 'SECTION003PRIN');
+INSERT INTO "survey_surveysection" ("id", "sectionTitleKey") VALUES (4, 'SECTION004BRR');
+INSERT INTO "survey_surveysection" ("id", "sectionTitleKey") VALUES (5, 'SECTION005RISK');
 
 /* survey_surveyquestion */
 INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (1, 'Q001', 'S', 1, 1, 1, 60);
-INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (2, 'Q002', 'M', 2, 1, 1, 60);
-INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (3, 'Q003', 'M', 3, 1, 1, 60);
-INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (4, 'Q004', 'S', 4, 2, 3, 60);
-INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (5, 'Q005', 'S', 5, 3, 2, 60);
-INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (6, 'Q006', 'S', 6, 3, 2, 60);
+INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (2, 'Q002', 'S', 2, 1, 1, 60);
+INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (3, 'Q003', 'S', 3, 2, 1, 60);
+INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (4, 'Q004', 'S', 4, 3, 2, 60);
+INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (5, 'Q005', 'M', 5, 3, 2, 60);
+INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (6, 'Q006', 'S', 6, 4, 3, 60);
 INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (7, 'Q007', 'S', 7, 4, 3, 60);
-INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (8, 'Q008', 'S', 8, 4, 3, 60);
-INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (9, 'Q009', 'S', 9, 5, 4, 60);
-INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (10, 'Q010', 'S', 10, 5, 4, 60);
-INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (11, 'Q011', 'S', 11, 6, 3, 60);
-INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (12, 'Q012', 'S', 12, 7, 3, 60);
-INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (13, 'Q013', 'S', 13, 8, 5, 60);
-INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (14, 'Q014', 'S', 14, 9, 4, 60);
+INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (8, 'Q008', 'S', 8, 5, 4, 60);
+INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (9, 'Q009', 'M', 9, 6, 4, 60);
+INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (10, 'Q010', 'S', 10, 6, 4, 60);
+INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (11, 'Q011', 'M', 11, 7, 5, 60);
+INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (12, 'Q012', 'S', 12, 7, 5, 60);
+INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (13, 'Q013', 'S', 13, 7, 5, 60);
+INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (14, 'Q014', 'S', 14, 7, 5, 60);
+INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (15, 'Q015', 'S', 15, 8, 5, 60);
+INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (16, 'Q016', 'S', 16, 8, 5, 60);
+INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (17, 'Q017', 'S', 17, 8, 5, 60);
 
 /* survey_surveyquestionanswer */
 INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (1, 'Q001A001', 10, 1, FALSE, 60);
 INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (2, 'Q001A002', 20, 1, FALSE, 60);
 INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (3, 'Q001A003', 30, 1, FALSE, 60);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (4, 'Q001A004', 40, 1, FALSE, 30);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (5, 'Q001A005', 50, 1, FALSE, 0);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (4, 'Q001A004', 40, 1, FALSE, 60);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (5, 'Q001A005', 50, 1, FALSE, 60);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (6, 'Q001A006', 60, 1, FALSE, 60);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (7, 'Q001A007', 70, 1, FALSE, 60);
 
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (6, 'Q002A001', 10, 2, FALSE, 12);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (7, 'Q002A002', 20, 2, FALSE, 12);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (8, 'Q002A003', 30, 2, FALSE, 12);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (9, 'Q002A004', 40, 2, FALSE, 12);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (10, 'Q002A005', 50, 2, FALSE, 12);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (11, 'Q002A006', 60, 2, TRUE, 60);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (12, 'Q002A007', 70, 2, TRUE, 0);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (8, 'Q002A001', 10, 2, FALSE, 60);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (9, 'Q002A002', 20, 2, FALSE, 60);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (10, 'Q002A003', 30, 2, FALSE, 60);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (11, 'Q002A004', 40, 2, FALSE, 60);
 
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (13, 'Q003A001', 10, 3, FALSE, 6);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (14, 'Q003A002', 20, 3, FALSE, 6);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (15, 'Q003A003', 30, 3, FALSE, 6);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (16, 'Q003A004', 40, 3, FALSE, 6);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (17, 'Q003A005', 50, 3, FALSE, 6);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (18, 'Q003A006', 60, 3, FALSE, 6);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (19, 'Q003A007', 70, 3, FALSE, 6);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (20, 'Q003A008', 80, 3, FALSE, 6);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (21, 'Q003A009', 90, 3, FALSE, 6);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (22, 'Q003A010', 100, 3, FALSE, 6);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (23, 'Q003A011', 110, 3, TRUE, 0);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (12, 'Q003A001', 10, 3, FALSE, 0);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (13, 'Q003A002', 20, 3, FALSE, 10);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (14, 'Q003A003', 30, 3, FALSE, 30);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (15, 'Q003A004', 40, 3, FALSE, 30);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (16, 'Q003A005', 50, 3, FALSE, 60);
 
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (24, 'Q004A001', 10, 4, TRUE, 60);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (25, 'Q004A002', 20, 4, TRUE, 0);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (26, 'Q004A003', 30, 4, TRUE, 30);
 
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (27, 'Q005A001', 10, 5, TRUE, 60);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (28, 'Q005A002', 20, 5, TRUE, 0);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (29, 'Q005A003', 30, 5, TRUE, 30);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (17, 'Q004A001', 10, 4, FALSE, 30);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (18, 'Q004A002', 20, 4, FALSE, 0);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (19, 'Q004A003', 30, 4, FALSE, 60);
 
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (30, 'Q006A001', 10, 6, TRUE, 60);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (31, 'Q006A002', 20, 6, TRUE, 0);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (32, 'Q006A003', 30, 6, TRUE, 30);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (20, 'Q005A001', 10, 5, FALSE, 0);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (21, 'Q005A002', 20, 5, TRUE, 10);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (22, 'Q005A003', 30, 5, TRUE, 20);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (23, 'Q005A004', 40, 5, TRUE, 20);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (24, 'Q005A005', 50, 5, TRUE, 20);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (25, 'Q005A006', 60, 5, TRUE, 40);
 
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (33, 'Q007A001', 10, 7, TRUE, 60);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (34, 'Q007A002', 20, 7, TRUE, 0);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (35, 'Q007A003', 30, 7, TRUE, 30);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (26, 'Q006A001', 10, 6, FALSE, 0);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (27, 'Q006A002', 20, 6, FALSE, 10);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (28, 'Q006A003', 30, 6, FALSE, 60);
 
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (36, 'Q008A001', 10, 8, TRUE, 60);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (37, 'Q008A002', 20, 8, TRUE, 0);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (38, 'Q008A003', 30, 8, TRUE, 30);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (29, 'Q007A001', 10, 7, FALSE, 0);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (30, 'Q007A002', 20, 7, FALSE, 0);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (31, 'Q007A003', 30, 7, FALSE, 30);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (32, 'Q007A004', 40, 7, FALSE, 60);
 
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (39, 'Q009A001', 10, 9, TRUE, 60);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (40, 'Q009A002', 20, 9, TRUE, 60);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (41, 'Q009A003', 30, 9, TRUE, 30);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (42, 'Q009A004', 40, 9, FALSE, 0);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (43, 'Q009A005', 50, 9, FALSE, 30);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (33, 'Q008A001', 10, 8, FALSE, 0);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (34, 'Q008A002', 20, 8, FALSE, 0);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (35, 'Q008A003', 30, 8, FALSE, 20);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (36, 'Q008A004', 40, 8, FALSE, 60);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (37, 'Q008A005', 50, 8, FALSE, 20);
 
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (44, 'Q010A001', 10, 10, TRUE, 60);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (45, 'Q010A002', 20, 10, TRUE, 30);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (46, 'Q010A003', 30, 10, TRUE, 0);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (38, 'Q009A001', 10, 9, FALSE, 0);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (39, 'Q009A002', 20, 9, TRUE, 10);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (40, 'Q009A003', 30, 9, TRUE, 30);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (41, 'Q009A004', 40, 9, TRUE, 50);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (42, 'Q009A005', 50, 9, TRUE, 30);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (43, 'Q009A006', 60, 9, TRUE, 30);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (44, 'Q009A007', 70, 9, TRUE, 10);
 
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (47, 'Q011A001', 10, 11, TRUE, 60);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (48, 'Q011A002', 20, 11, TRUE, 0);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (49, 'Q011A003', 30, 11, TRUE, 30);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (45, 'Q010A001', 10, 10, FALSE, 0);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (46, 'Q010A002', 20, 10, FALSE, 10);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (47, 'Q010A003', 30, 10, FALSE, 60);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (48, 'Q010A004', 40, 10, FALSE, 50);
 
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (50, 'Q012A001', 10, 12, TRUE, 60);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (51, 'Q012A002', 20, 12, TRUE, 0);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (52, 'Q012A003', 30, 12, TRUE, 30);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (49, 'Q011A001', 10, 11, TRUE, 0);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (50, 'Q011A002', 20, 11, TRUE, 0);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (51, 'Q011A003', 30, 11, FALSE, 30);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (52, 'Q011A004', 40, 11, FALSE, 40);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (53, 'Q011A005', 50, 11, FALSE, 30);
 
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (53, 'Q013A001', 10, 13, TRUE, 60);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (54, 'Q013A002', 20, 13, TRUE, 30);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (55, 'Q013A003', 30, 13, TRUE, 0);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (56, 'Q013A004', 40, 13, TRUE, 60);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (54, 'Q012A001', 10, 12, FALSE, 60);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (55, 'Q012A002', 20, 12, FALSE, 0);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (56, 'Q012A003', 30, 12, FALSE, 30);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (57, 'Q012A004', 40, 12, FALSE, 60);
 
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (57, 'Q014A001', 10, 14, TRUE, 60);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (58, 'Q014A002', 20, 14, TRUE, 0);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (59, 'Q014A003', 30, 14, TRUE, 30);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (58, 'Q013A001', 10, 13, FALSE, 0);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (59, 'Q013A002', 20, 13, FALSE, 0);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (60, 'Q013A003', 30, 13, FALSE, 20);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (61, 'Q013A004', 40, 13, FALSE, 60);
 
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (62, 'Q014A001', 10, 14, FALSE, 60);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (63, 'Q014A002', 20, 14, FALSE, 60);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (64, 'Q014A003', 30, 14, FALSE, 60);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (65, 'Q014A004', 40, 14, FALSE, 0);
+
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (66, 'Q015A001', 10, 15, FALSE, 0);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (67, 'Q015A002', 20, 15, FALSE, 20);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (68, 'Q015A003', 30, 15, FALSE, 40);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (69, 'Q015A004', 40, 15, FALSE, 60);
+
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (70, 'Q016A001', 10, 16, FALSE, 0);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (71, 'Q016A002', 20, 16, FALSE, 0);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (72, 'Q016A003', 30, 16, FALSE, 60);
+
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (73, 'Q017A001', 10, 17, FALSE, 0);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (74, 'Q017A002', 20, 17, FALSE, 30);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (75, 'Q017A003', 30, 17, FALSE, 60);
 
 /* survey_recommendations */
-INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q001REC001', 'a', 'j', NULL, TRUE, 4);
-INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q001REC001', 'a', 'j', NULL, TRUE, 5);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q001REC001', 'a', 'j', NULL, TRUE, 1);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q001REC002', 'a', 'j', NULL, TRUE, 3);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q001REC002', 'a', 'j', NULL, TRUE, 5);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q001REC002', 'a', 'j', NULL, TRUE, 6);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q001REC002', 'a', 'j', NULL, TRUE, 7);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q001REC003', 'a', 'j', NULL, TRUE, 2);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q001REC003', 'a', 'j', NULL, TRUE, 4);
 
-INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q002REC001', 'a', 'j', NULL, FALSE, 6);
-INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q002REC001', 'a', 'j', NULL, FALSE, 7);
-INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q002REC001', 'a', 'j', NULL, FALSE, 8);
-INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q002REC001', 'a', 'j', NULL, FALSE, 9);
-INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q002REC001', 'a', 'j', NULL, FALSE, 10);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q002REC001', 'a', 'j', NULL, TRUE, 11);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q002REC002', 'a', 'j', NULL, TRUE, 9);
+/* if 10 selected, to be rememberedfor DPIA question */
 
-INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q003REC001', 'a', 'j', NULL, FALSE, 13);
-INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q003REC001', 'a', 'j', NULL, FALSE, 14);
-INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q003REC001', 'a', 'j', NULL, FALSE, 15);
-INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q003REC001', 'a', 'j', NULL, FALSE, 16);
-INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q003REC001', 'a', 'j', NULL, FALSE, 17);
-INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q003REC001', 'a', 'j', NULL, FALSE, 18);
-INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q003REC001', 'a', 'j', NULL, FALSE, 19);
-INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q003REC001', 'a', 'j', NULL, FALSE, 20);
-INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q003REC001', 'a', 'j', NULL, FALSE, 21);
-INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q003REC001', 'a', 'j', NULL, FALSE, 22);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q003REC001', 'a', 'j', NULL, FALSE, 12);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q003REC002', 'a', 'j', NULL, FALSE, 13);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q003REC003', 'a', 'j', NULL, FALSE, 14);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q003REC004', 'a', 'j', NULL, FALSE, 15);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q003REC005', 'a', 'j', NULL, FALSE, 16);
 
-INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q004REC001', 'a', 'j', NULL, FALSE, 24);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q004REC001', 'a', 'j', NULL, FALSE, 18);
 
-INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q005REC001', 'a', 'j', NULL, FALSE, 27);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q005REC001', 'a', 'j', NULL, FALSE, 20);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q005REC003', 'a', 'j', NULL, FALSE, 21);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q005REC002', 'a', 'j', NULL, FALSE, 23);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q005REC002', 'a', 'j', NULL, FALSE, 22);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q005REC003', 'a', 'j', NULL, FALSE, 24);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q005REC003', 'a', 'j', NULL, FALSE, 25);
 
-INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q006REC001', 'a', 'j', NULL, FALSE, 30);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q006REC001', 'a', 'j', NULL, FALSE, 26);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q006REC002', 'a', 'j', NULL, FALSE, 27);
 
-INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q007REC001', 'a', 'j', NULL, FALSE, 33);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q007REC001', 'a', 'j', NULL, FALSE, 29);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q007REC002', 'a', 'j', NULL, FALSE, 30);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q007REC003', 'a', 'j', NULL, FALSE, 31);
 
-INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q008REC001', 'a', 'j', NULL, FALSE, 36);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q008REC001', 'a', 'j', NULL, FALSE, 33);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q008REC001', 'a', 'j', NULL, FALSE, 34);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q008REC002', 'a', 'j', NULL, FALSE, 35);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q008REC003', 'a', 'j', NULL, FALSE, 36);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q008REC003', 'a', 'j', NULL, FALSE, 37);
 
-INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q009REC001', 'a', 'j', NULL, TRUE, 42);
-INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q009REC001', 'a', 'j', NULL, TRUE, 43);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q009REC001', 'a', 'j', NULL, TRUE, 38);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q009REC002', 'a', 'j', NULL, TRUE, 39);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q009REC003', 'a', 'j', NULL, TRUE, 40);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q009REC003', 'a', 'j', NULL, TRUE, 42);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q009REC004', 'a', 'j', NULL, TRUE, 43);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q009REC005', 'a', 'j', NULL, TRUE, 44);
 
-INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q009REC001', 'a', 'j', NULL, FALSE, 44);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q010REC001', 'a', 'j', NULL, FALSE, 45);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q010REC001', 'a', 'j', NULL, FALSE, 46);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q010REC001', 'a', 'j', NULL, FALSE, 48);
 
-INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q011REC001', 'a', 'j', NULL, FALSE, 47);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q011REC001', 'a', 'j', NULL, FALSE, 49);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q011REC002', 'a', 'j', NULL, FALSE, 50);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q011REC003', 'a', 'j', NULL, FALSE, 51);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q011REC004', 'a', 'j', NULL, FALSE, 52);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q011REC005', 'a', 'j', NULL, FALSE, 53);
 
-INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q012REC001', 'a', 'j', NULL, FALSE, 50);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q012REC001', 'a', 'j', NULL, FALSE, 55);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q012REC001', 'a', 'j', NULL, FALSE, 56);
 
-INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q013REC001', 'a', 'j', NULL, TRUE, 54);
-INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q013REC001', 'a', 'j', NULL, TRUE, 55);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q013REC001', 'a', 'j', NULL, FALSE, 58);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q013REC001', 'a', 'j', NULL, FALSE, 59);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q013REC002', 'a', 'j', NULL, FALSE, 60);
 
-INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q014REC001', 'a', 'j', NULL, FALSE, 57);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q014REC001', 'a', 'j', NULL, FALSE, 61);
+
+
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q015REC001', 'a', 'j', NULL, FALSE, 66);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q015REC002', 'a', 'j', NULL, FALSE, 67);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q015REC003', 'a', 'j', NULL, FALSE, 68);
+
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q016REC001', 'a', 'j', NULL, FALSE, 70);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q016REC001', 'a', 'j', NULL, FALSE, 71);
+
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q017REC001', 'a', 'j', NULL, FALSE, 73);
+INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q017REC002', 'a', 'j', NULL, FALSE, 74);
 
 
 /* survey_translationkey */
 -- FR
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT001DATA', 'Data Collection', 'fr', 'C');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT002BP', 'Best practices', 'fr', 'C');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT003THI', 'Third-party involvment', 'fr', 'C');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT004YOU', 'Your company', 'fr', 'C');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT005BRE', 'Data Breach', 'fr', 'C');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT006DPIA', 'DPIA', 'fr', 'C');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT007DPO', 'DPO', 'fr', 'C');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT008TRAN', 'Data transfer', 'fr', 'C');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT009SAN', 'Sanctions', 'fr', 'C');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT001DATA', 'Personal Data Processing', 'fr', 'C');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT002ROPA', 'Register of Processing activities', 'fr', 'C');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT003TRANSS', 'Transparency', 'fr', 'C');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT004PRINC', '(Some) Principles of Processing', 'fr', 'C');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT005BRE', 'Data Breaches', 'fr', 'C');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT006RIGHTS', 'Data Subject Rights', 'fr', 'C');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT007RISKS', 'Risk Management', 'fr', 'C');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT008INFOSEC', 'Information Security', 'fr', 'C');
 -- EN
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT001DATA', 'Data Collection', 'en', 'C');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT002BP', 'Best practices', 'en', 'C');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT003THI', 'Third-party involvment', 'en', 'C');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT004YOU', 'Your company', 'en', 'C');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT005BRE', 'Data Breach', 'en', 'C');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT006DPIA', 'DPIA', 'en', 'C');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT007DPO', 'DPO', 'en', 'C');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT008TRAN', 'Data transfer', 'en', 'C');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT009SAN', 'Sanctions', 'en', 'C');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT001DATA', 'Personal Data Processing', 'en', 'C');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT002ROPA', 'Register of Processing activities', 'en', 'C');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT003TRANSS', 'Transparency', 'en', 'C');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT004PRINC', '(Some) Principles of Processing', 'en', 'C');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT005BRE', 'Data Breaches', 'en', 'C');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT006RIGHTS', 'Data Subject Rights', 'en', 'C');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT007RISKS', 'Risk Management', 'en', 'C');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT008INFOSEC', 'Information Security', 'en', 'C');
 -- DE
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT001DATA', 'Data Collection', 'de', 'C');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT002BP', 'Best practices', 'de', 'C');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT003THI', 'Third-party involvment', 'de', 'C');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT004YOU', 'Your company', 'de', 'C');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT005BRE', 'Data Breach', 'de', 'C');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT006DPIA', 'DPIA', 'de', 'C');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT007DPO', 'DPO', 'de', 'C');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT008TRAN', 'Data transfer', 'de', 'C');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT009SAN', 'Sanctions', 'de', 'C');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT001DATA', 'Personal Data Processing', 'de', 'C');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT002ROPA', 'Register of Processing activities', 'de', 'C');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT003TRANSS', 'Transparency', 'de', 'C');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT004PRINC', '(Some) Principles of Processing', 'de', 'C');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT005BRE', 'Data Breaches', 'de', 'C');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT006RIGHTS', 'Data Subject Rights', 'de', 'C');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT007RISKS', 'Risk Management', 'de', 'C');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SERVCAT008INFOSEC', 'Information Security', 'de', 'C');
+
 
 -- FR
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION001PROC', 'Processing of personal data', 'fr', 'S');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION002THIRD', 'Third-party involvment', 'fr', 'S');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION003BP', 'Your company and best practices', 'fr', 'S');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION004SAN', 'Data breach and sanctions', 'fr', 'S');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION005TRAN', 'Data transfer', 'fr', 'S');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION001DATAM', 'Personal Data Management', 'fr', 'S');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION002TRANS', 'Transparency', 'fr', 'S');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION003PRIN', 'Principles of processing', 'fr', 'S');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION004BRR', 'Data breaches, Data rights', 'fr', 'S');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION005RISK', 'Risk Management', 'fr', 'S');
 -- EN
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION001PROC', 'Processing of personal data', 'en', 'S');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION002THIRD', 'Third-party involvment', 'en', 'S');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION003BP', 'Your company and best practices', 'en', 'S');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION004SAN', 'Data breach and sanctions', 'en', 'S');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION005TRAN', 'Data transfer', 'en', 'S');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION001DATAM', 'Personal Data Management', 'en', 'S');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION002TRANS', 'Transparency', 'en', 'S');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION003PRIN', 'Principles of processing', 'en', 'S');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION004BRR', 'Data breaches, Data rights', 'en', 'S');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION005RISK', 'Risk Management', 'en', 'S');
 -- DE
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION001PROC', 'Processing of personal data', 'de', 'S');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION002THIRD', 'Third-party involvment', 'de', 'S');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION003BP', 'Your company and best practices', 'de', 'S');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION004SAN', 'Data breach and sanctions', 'de', 'S');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION005TRAN', 'Data transfer', 'de', 'S');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION001DATAM', 'Personal Data Management', 'de', 'S');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION002TRANS', 'Transparency', 'de', 'S');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION003PRIN', 'Principles of processing', 'de', 'S');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION004BRR', 'Data breaches, Data rights', 'de', 'S');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION005RISK', 'Risk Management', 'de', 'S');
 
 -- FR
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001', 'Before processing personal data:', 'fr', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A001', 'You have asked the consent of the person whose personal data has been collected ', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A002', 'You need the processing for the customer relationship either through a contract, to protect a person (health care) or for a task carried out in the public interest', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A003', 'The collection of data is necessary for the purposes of legitimate interests pursued by your company or a third party (e.g. fraud prevention, network and information security, indicating possible criminal acts or threats to public security, processing of client’s or employee’s data, direct marketing, intra-group administrative transfer)', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A004', 'You have only partially implemented one of the above obligations', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A005', 'You did not assess the personal data collection', 'fr', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002', 'Do you collect data on racial or ethnic origin, political opinions, religious or philosophical beliefs trade union membership, genetic data, biometric data, data concerning health or data concerning a natural person’s sex life or sexual orientation? (See <a href="https://www.privacy-regulation.eu/en/article-9-processing-of-special-categories-of-personal-data-GDPR.htm" target="_blank">GDPR Article 9</a>)  ', 'fr', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A001', 'Yes, but you asked for people’s consent', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A002', 'Yes, and you need the data so you can carry out our obligations (like field of employment, social security or for protecting the vital interests of a person)', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A003', 'Yes, and the data subject has made his data publicly available', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A004', 'You need that data for the preventive or occupational medicine, for the assessment of your working capacity or for reasons of public health', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A005', 'This data is necessary for scientific or historical research purposes or statistical purposes', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A006', 'You do not collect any such data', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A007', 'You collect the data, but nothing of the above fits', 'fr', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003', 'Did You Provide For The Following Information To The Person Whose Data Has Been Collected  ', 'fr', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A001', 'The identity and the contact details of your company', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A002', 'The contact details of the data protection officer (DPO), if appointed', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A003', 'The purposes and the legal basis for the processing', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A004', 'The recipients or categories of recipients of the personal data, if any', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A005', 'Where applicable, the fact that your company intends to transfer personal data to a third country or international organization; Or you don’t transfer data to a third Country or international organization', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A006', 'The period for which the personal data will be stored, or if that is not possible, the criteria used to determine that period', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A007', 'The existence of the right to request from your Company <a href="https://www.privacy-regulation.eu/en/article-15-right-of-access-by-the-data-subject-GDPR.htm" target="_blank">access</a>  and <a href="https://www.privacy-regulation.eu/en/article-16-right-to-rectification-GDPR.htm" target="_blank">rectification</a> , or <a href="https://www.privacy-regulation.eu/en/article-17-right-to-erasure-''right-to-be-forgotten''-GDPR.htm" target="_blank">erasure</a>  of personal data or <a href="https://www.privacy-regulation.eu/en/article-18-right-to-restriction-of-processing-GDPR.htm" target="_blank">restriction</a>  of processing concerning the data subject, or to object to processing, as well as the right to <a href="https://www.privacy-regulation.eu/en/article-20-right-to-data-portability-GDPR.htm" target="_blank">data portability</a>', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A008', 'Where the processing is based on the consent of the data subject, the existence of the right to withdraw it at any time', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A009', 'The right to lodge a complaint with a supervisory authority', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A010', 'The existence of automated decision-making, including profiling if any', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A011', 'You are collecting personal data, but none of this information has been provided', 'fr', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004', 'Are personal data processed according to the privacy by design and privacy by default  standards ? (See <a href="https://www.privacy-regulation.eu/en/article-25-data-protection-by-design-and-by-default-GDPR.htm" target="_blank">GDPR Article 25</a>)', 'fr', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004A001', 'Yes', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004A002', 'No', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004A003', 'Partially implemented', 'fr', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005', 'Is your company collecting personal data together with another organization and is this processing regulated by a specific arrangement ? (See <a href="https://www.privacy-regulation.eu/en/article-26-joint-controllers-GDPR.htm" target="_blank">GDPR Article 26</a>) ', 'fr', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A001', 'Yes', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A002', 'No', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A003', 'Yes, but the joint-processing has only been partially Regulated', 'fr', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q006', 'Is your company collecting personal data on the behalf of another organization or does your company designate anyone to collect personal data on its behalf based on a contract or any other legal act under the european union or member state law? (See <a href="https://www.privacy-regulation.eu/en/article-28-processor-GDPR.htm" target="_blank">GDPR Article 28</a>)', 'fr', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q006A001', 'Yes', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q006A002', 'No', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q006A003', 'Partially implemented', 'fr', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007', 'Does one or more of the following statements apply to the company (see <a href="https://www.privacy-regulation.eu/en/article-30-records-of-processing-activities-GDPR.htm" target="_blank">GDPR Article 30</a>)?
-- Employing more than 250 persons
-- Carrying out activities that may put at risk the rights and freedoms of data subjects
-- Processing personal data not occasionally
-- The processing includes special categories of data as referred to in article 9
-- Personal data relating to criminal convictions and offences referred to in article 10
-- None of these conditions apply
-If one of these conditions is met, has your company set up a register of all processing activities (article 30 GDPR)
-', 'fr', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007A001', 'Yes', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007A002', 'No', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007A003', 'Partially implemented', 'fr', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008', 'Does your company take appropriate technical and organizational measures  (e.g. Pseudonymization and encryption of personal data) to ensure a level of security which is appropriate to the risk (e.g. Pseudonymization and encryption of personal data ) (See <a href="https://www.privacy-regulation.eu/en/article-32-security-of-processing-GDPR.htm" target="_blank">GDPR Article 30</a>)', 'fr', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A001', 'Yes', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A002', 'No', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A003', 'Partially implemented', 'fr', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009', 'When a data breach occurred, has your company notified it,  with all elements requested by the gdpr , to the nationaldata protection authority? (See <a href="https://www.privacy-regulation.eu/en/article-33-notification-of-a-personal-data-breach-to-the-supervisory-authority-GDPR.htm" target="_blank">GDPR Article 33</a>)', 'fr', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A001', 'Within 72 hours after having become aware of it', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A002', 'After 72 hours, accompanied by the reasons for the delay', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A003', 'Any notification has been provided, but the data breach is unlikely to result in a risk to the rights and freedoms of natural persons', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A004', 'No notification has been provided ', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A005', 'Not applicable ', 'fr', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010', 'Has your company communicated the personal data breach that occurred to the data subject where it is likely to result in a high risk to his rights and freedoms? (See <a href="https://www.privacy-regulation.eu/en/article-34-communication-of-a-personal-data-breach-to-the-data-subject-GDPR.htm" target="_blank">GDPR Article 34</a>)', 'fr', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010A001', 'Yes', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010A002', 'No, but you have implemented appropriate technical and organizational protection measures, such as encryption; you have taken subsequent measures which ensure that the high risk to the rights and freedoms of data subjects is no longer likely to materialize', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010A003', 'No', 'fr', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011', 'Did you proceed with the data protection impact assessment when needed? (See <a href="https://www.privacy-regulation.eu/en/article-35-data-protection-impact-assessment-GDPR.htm" target="_blank">GDPR Article 35</a>)', 'fr', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A001', 'Yes', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A002', 'No', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A003', 'Partially implemented', 'fr', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012', 'Has your company appointed a data protection officer  when requested by the gdpr? (See <a href="https://www.privacy-regulation.eu/en/article-37-designation-of-the-data-protection-officer-GDPR.htm" target="_blank">GDPR Article 37</a>) ', 'fr', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012A001', 'Yes', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012A002', 'No', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012A003', 'Partially implemented', 'fr', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013', '18.	Is Any Personal Data Transferred To Third  Countries (Outside The Eu) (See Article <a href="https://www.privacy-regulation.eu/en/article-44-general-principle-for-transfers-GDPR.htm" target="_blank">44</a>-<a href="https://www.privacy-regulation.eu/en/article-45-transfers-on-the-basis-of-an-adequacy-decision-GDPR.htm" target="_blank">45</a>-<a href="https://www.privacy-regulation.eu/en/article-46-transfers-subject-to-appropriate-safeguards-GDPR.htm" target="_blank">46</a>-<a href="https://www.privacy-regulation.eu/en/article-47-binding-corporate-rules-GDPR.htm" target="_blank">47</a>-<a href="https://www.privacy-regulation.eu/en/article-48-transfers-or-disclosures-not-authorised-by-union-law-GDPR.htm" target="_blank">48</a>)', 'fr', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013A001', 'Yes, and the transfer is justified by one of the conditions indicated by the GDPR (e.g. A decision of the European Commission establishing that the third country has an adequate level of protection; Binding Corporate Rules (BCR) or Standard Contractual Clauses (SCC).', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013A002', 'Yes, but you have only partially implemented the above obligations.', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013A003', 'Yes, but the transfer is not justified by any of the conditions indicated by the GDPR. ', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013A004', 'No', 'fr', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q014', 'Do you know if you might be potentially subject to gdpr sanctions?', 'fr', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q014A001', 'Yes', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q014A002', 'No', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q014A003', 'Partially aware', 'fr', 'A');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001', 'If your company processes personal data, how much personal data (i.e. of how many data subjects, data quantity per data subject on average) does it process:', 'fr', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A001', 'We don’t process personal data at all.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A002', 'We process some personal data (but very limited) of employees.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A003', 'We process a lot of personal data of employees.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A004', 'We process some personal data of clients/users, and we have under 500 clients.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A005', 'We process some personal data of clients/users, and we have between 500 and 10 000 clients/users.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A006', 'We process some personal data of clients/users, and we have over 10 000 clients/users.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A007', 'We monitor behaviour of data subjects as part of our business, and they are a lot.', 'fr', 'A');
 
--- EN
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001', 'Before processing personal data:', 'en', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A001', 'You have asked the consent of the person whose personal data has been collected ', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A002', 'You need the processing for the customer relationship either through a contract, to protect a person (health care) or for a task carried out in the public interest', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A003', 'The collection of data is necessary for the purposes of legitimate interests pursued by your company or a third party (e.g. fraud prevention, network and information security, indicating possible criminal acts or threats to public security, processing of client’s or employee’s data, direct marketing, intra-group administrative transfer)', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A004', 'You have only partially implemented one of the above obligations', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A005', 'You did not assess the personal data collection', 'en', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002', 'Do you collect data on racial or ethnic origin, political opinions, religious or philosophical beliefs trade union membership, genetic data, biometric data, data concerning health or data concerning a natural person’s sex life or sexual orientation? (See <a href="https://www.privacy-regulation.eu/en/article-9-processing-of-special-categories-of-personal-data-GDPR.htm" target="_blank">GDPR Article 9</a>)  ', 'en', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A001', 'Yes, but you asked for people’s consent', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A002', 'Yes, and you need the data so you can carry out our obligations (like field of employment, social security or for protecting the vital interests of a person)', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A003', 'Yes, and the data subject has made his data publicly available', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A004', 'You need that data for the preventive or occupational medicine, for the assessment of your working capacity or for reasons of public health', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A005', 'This data is necessary for scientific or historical research purposes or statistical purposes', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A006', 'You do not collect any such data', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A007', 'You collect the data, but nothing of the above fits', 'en', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003', 'Did You Provide For The Following Information To The Person Whose Data Has Been Collected  ', 'en', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A001', 'The identity and the contact details of your company', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A002', 'The contact details of the data protection officer (DPO), if appointed', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A003', 'The purposes and the legal basis for the processing', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A004', 'The recipients or categories of recipients of the personal data, if any', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A005', 'Where applicable, the fact that your company intends to transfer personal data to a third country or international organization; Or you don’t transfer data to a third Country or international organization', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A006', 'The period for which the personal data will be stored, or if that is not possible, the criteria used to determine that period', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A007', 'The existence of the right to request from your Company <a href="https://www.privacy-regulation.eu/en/article-15-right-of-access-by-the-data-subject-GDPR.htm" target="_blank">access</a>  and <a href="https://www.privacy-regulation.eu/en/article-16-right-to-rectification-GDPR.htm" target="_blank">rectification</a> , or <a href="https://www.privacy-regulation.eu/en/article-17-right-to-erasure-''right-to-be-forgotten''-GDPR.htm" target="_blank">erasure</a>  of personal data or <a href="https://www.privacy-regulation.eu/en/article-18-right-to-restriction-of-processing-GDPR.htm" target="_blank">restriction</a>  of processing concerning the data subject, or to object to processing, as well as the right to <a href="https://www.privacy-regulation.eu/en/article-20-right-to-data-portability-GDPR.htm" target="_blank">data portability</a>', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A008', 'Where the processing is based on the consent of the data subject, the existence of the right to withdraw it at any time', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A009', 'The right to lodge a complaint with a supervisory authority', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A010', 'The existence of automated decision-making, including profiling if any', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A011', 'You are collecting personal data, but none of this information has been provided', 'en', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004', 'Are personal data processed according to the privacy by design and privacy by default  standards ? (See <a href="https://www.privacy-regulation.eu/en/article-25-data-protection-by-design-and-by-default-GDPR.htm" target="_blank">GDPR Article 25</a>)', 'en', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004A001', 'Yes', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004A002', 'No', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004A003', 'Partially implemented', 'en', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005', 'Is your company collecting personal data together with another organization and is this processing regulated by a specific arrangement ? (See <a href="https://www.privacy-regulation.eu/en/article-26-joint-controllers-GDPR.htm" target="_blank">GDPR Article 26</a>) ', 'en', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A001', 'Yes', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A002', 'No', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A003', 'Yes, but the joint-processing has only been partially Regulated', 'en', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q006', 'Is your company collecting personal data on the behalf of another organization or does your company designate anyone to collect personal data on its behalf based on a contract or any other legal act under the european union or member state law? (See <a href="https://www.privacy-regulation.eu/en/article-28-processor-GDPR.htm" target="_blank">GDPR Article 28</a>)', 'en', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q006A001', 'Yes', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q006A002', 'No', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q006A003', 'Partially implemented', 'en', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007', 'Does one or more of the following statements apply to the company (see <a href="https://www.privacy-regulation.eu/en/article-30-records-of-processing-activities-GDPR.htm" target="_blank">GDPR Article 30</a>)?
-- Employing more than 250 persons
-- Carrying out activities that may put at risk the rights and freedoms of data subjects
-- Processing personal data not occasionally
-- The processing includes special categories of data as referred to in article 9
-- Personal data relating to criminal convictions and offences referred to in article 10
-- None of these conditions apply
-If one of these conditions is met, has your company set up a register of all processing activities (article 30 GDPR)
-', 'en', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007A001', 'Yes', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007A002', 'No', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007A003', 'Partially implemented', 'en', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008', 'Does your company take appropriate technical and organizational measures  (e.g. Pseudonymization and encryption of personal data) to ensure a level of security which is appropriate to the risk (e.g. Pseudonymization and encryption of personal data ) (See <a href="https://www.privacy-regulation.eu/en/article-32-security-of-processing-GDPR.htm" target="_blank">GDPR Article 30</a>)', 'en', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A001', 'Yes', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A002', 'No', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A003', 'Partially implemented', 'en', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009', 'When a data breach occurred, has your company notified it,  with all elements requested by the gdpr , to the nationaldata protection authority? (See <a href="https://www.privacy-regulation.eu/en/article-33-notification-of-a-personal-data-breach-to-the-supervisory-authority-GDPR.htm" target="_blank">GDPR Article 33</a>)', 'en', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A001', 'Within 72 hours after having become aware of it', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A002', 'After 72 hours, accompanied by the reasons for the delay', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A003', 'Any notification has been provided, but the data breach is unlikely to result in a risk to the rights and freedoms of natural persons', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A004', 'No notification has been provided ', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A005', 'Not applicable ', 'en', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010', 'Has your company communicated the personal data breach that occurred to the data subject where it is likely to result in a high risk to his rights and freedoms? (See <a href="https://www.privacy-regulation.eu/en/article-34-communication-of-a-personal-data-breach-to-the-data-subject-GDPR.htm" target="_blank">GDPR Article 34</a>)', 'en', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010A001', 'Yes', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010A002', 'No, but you have implemented appropriate technical and organizational protection measures, such as encryption; you have taken subsequent measures which ensure that the high risk to the rights and freedoms of data subjects is no longer likely to materialize', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010A003', 'No', 'en', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011', 'Did you proceed with the data protection impact assessment when needed? (See <a href="https://www.privacy-regulation.eu/en/article-35-data-protection-impact-assessment-GDPR.htm" target="_blank">GDPR Article 35</a>)', 'en', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A001', 'Yes', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A002', 'No', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A003', 'Partially implemented', 'en', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012', 'Has your company appointed a data protection officer  when requested by the gdpr? (See <a href="https://www.privacy-regulation.eu/en/article-37-designation-of-the-data-protection-officer-GDPR.htm" target="_blank">GDPR Article 37</a>) ', 'en', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012A001', 'Yes', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012A002', 'No', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012A003', 'Partially implemented', 'en', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013', '18.	Is Any Personal Data Transferred To Third  Countries (Outside The Eu) (See Article <a href="https://www.privacy-regulation.eu/en/article-44-general-principle-for-transfers-GDPR.htm" target="_blank">44</a>-<a href="https://www.privacy-regulation.eu/en/article-45-transfers-on-the-basis-of-an-adequacy-decision-GDPR.htm" target="_blank">45</a>-<a href="https://www.privacy-regulation.eu/en/article-46-transfers-subject-to-appropriate-safeguards-GDPR.htm" target="_blank">46</a>-<a href="https://www.privacy-regulation.eu/en/article-47-binding-corporate-rules-GDPR.htm" target="_blank">47</a>-<a href="https://www.privacy-regulation.eu/en/article-48-transfers-or-disclosures-not-authorised-by-union-law-GDPR.htm" target="_blank">48</a>)', 'en', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013A001', 'Yes, and the transfer is justified by one of the conditions indicated by the GDPR (e.g. A decision of the European Commission establishing that the third country has an adequate level of protection; Binding Corporate Rules (BCR) or Standard Contractual Clauses (SCC).', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013A002', 'Yes, but you have only partially implemented the above obligations.', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013A003', 'Yes, but the transfer is not justified by any of the conditions indicated by the GDPR. ', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013A004', 'No', 'en', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q014', 'Do you know if you might be potentially subject to gdpr sanctions?', 'en', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q014A001', 'Yes', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q014A002', 'No', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q014A003', 'Partially aware', 'en', 'A');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002', 'Does your company process personal data that can be sensitive (e.g., taken out of context, can be used to infer racial or ethnic origin, political opinions, religious or philosophical beliefs, trade union membership, genetic data, biometric data, sex life or sexual orientation)? (See <a href="https://www.privacy-regulation.eu/en/article-9-processing-of-special-categories-of-personal-data-GDPR.htm" target="_blank">GDPR Article 9</a>)', 'fr', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A001', 'No, we do not process any sensitive personal data at all.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A002', 'We do not process any sensitive data from the above but we do process some criminal records when hiring.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A003', 'Yes, we process at least one of the above.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A004', 'We do not know if we do.', 'fr', 'A');
 
--- DE
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001', 'Before processing personal data:', 'de', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A001', 'You have asked the consent of the person whose personal data has been collected ', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A002', 'You need the processing for the customer relationship either through a contract, to protect a person (health care) or for a task carried out in the public interest', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A003', 'The collection of data is necessary for the purposes of legitimate interests pursued by your company or a third party (e.g. fraud prevention, network and information security, indicating possible criminal acts or threats to public security, processing of client’s or employee’s data, direct marketing, intra-group administrative transfer)', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A004', 'You have only partially implemented one of the above obligations', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A005', 'You did not assess the personal data collection', 'de', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002', 'Do you collect data on racial or ethnic origin, political opinions, religious or philosophical beliefs trade union membership, genetic data, biometric data, data concerning health or data concerning a natural person’s sex life or sexual orientation? (See <a href="https://www.privacy-regulation.eu/en/article-9-processing-of-special-categories-of-personal-data-GDPR.htm" target="_blank">GDPR Article 9</a>)  ', 'de', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A001', 'Yes, but you asked for people’s consent', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A002', 'Yes, and you need the data so you can carry out our obligations (like field of employment, social security or for protecting the vital interests of a person)', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A003', 'Yes, and the data subject has made his data publicly available', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A004', 'You need that data for the preventive or occupational medicine, for the assessment of your working capacity or for reasons of public health', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A005', 'This data is necessary for scientific or historical research purposes or statistical purposes', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A006', 'You do not collect any such data', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A007', 'You collect the data, but nothing of the above fits', 'de', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003', 'Did You Provide For The Following Information To The Person Whose Data Has Been Collected  ', 'de', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A001', 'The identity and the contact details of your company', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A002', 'The contact details of the data protection officer (DPO), if appointed', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A003', 'The purposes and the legal basis for the processing', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A004', 'The recipients or categories of recipients of the personal data, if any', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A005', 'Where applicable, the fact that your company intends to transfer personal data to a third country or international organization; Or you don’t transfer data to a third Country or international organization', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A006', 'The period for which the personal data will be stored, or if that is not possible, the criteria used to determine that period', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A007', 'The existence of the right to request from your Company <a href="https://www.privacy-regulation.eu/en/article-15-right-of-access-by-the-data-subject-GDPR.htm" target="_blank">access</a>  and <a href="https://www.privacy-regulation.eu/en/article-16-right-to-rectification-GDPR.htm" target="_blank">rectification</a> , or <a href="https://www.privacy-regulation.eu/en/article-17-right-to-erasure-''right-to-be-forgotten''-GDPR.htm" target="_blank">erasure</a>  of personal data or <a href="https://www.privacy-regulation.eu/en/article-18-right-to-restriction-of-processing-GDPR.htm" target="_blank">restriction</a>  of processing concerning the data subject, or to object to processing, as well as the right to <a href="https://www.privacy-regulation.eu/en/article-20-right-to-data-portability-GDPR.htm" target="_blank">data portability</a>', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A008', 'Where the processing is based on the consent of the data subject, the existence of the right to withdraw it at any time', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A009', 'The right to lodge a complaint with a supervisory authority', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A010', 'The existence of automated decision-making, including profiling if any', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A011', 'You are collecting personal data, but none of this information has been provided', 'de', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004', 'Are personal data processed according to the privacy by design and privacy by default  standards ? (See <a href="https://www.privacy-regulation.eu/en/article-25-data-protection-by-design-and-by-default-GDPR.htm" target="_blank">GDPR Article 25</a>)', 'de', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004A001', 'Yes', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004A002', 'No', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004A003', 'Partially implemented', 'de', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005', 'Is your company collecting personal data together with another organization and is this processing regulated by a specific arrangement ? (See <a href="https://www.privacy-regulation.eu/en/article-26-joint-controllers-GDPR.htm" target="_blank">GDPR Article 26</a>) ', 'de', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A001', 'Yes', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A002', 'No', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A003', 'Yes, but the joint-processing has only been partially Regulated', 'de', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q006', 'Is your company collecting personal data on the behalf of another organization or does your company designate anyone to collect personal data on its behalf based on a contract or any other legal act under the european union or member state law? (See <a href="https://www.privacy-regulation.eu/en/article-28-processor-GDPR.htm" target="_blank">GDPR Article 28</a>)', 'de', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q006A001', 'Yes', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q006A002', 'No', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q006A003', 'Partially implemented', 'de', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007', 'Does one or more of the following statements apply to the company (see <a href="https://www.privacy-regulation.eu/en/article-30-records-of-processing-activities-GDPR.htm" target="_blank">GDPR Article 30</a>)?
-- Employing more than 250 persons
-- Carrying out activities that may put at risk the rights and freedoms of data subjects
-- Processing personal data not occasionally
-- The processing includes special categories of data as referred to in article 9
-- Personal data relating to criminal convictions and offences referred to in article 10
-- None of these conditions apply
-If one of these conditions is met, has your company set up a register of all processing activities (article 30 GDPR)
-', 'de', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007A001', 'Yes', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007A002', 'No', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007A003', 'Partially implemented', 'de', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008', 'Does your company take appropriate technical and organizational measures  (e.g. Pseudonymization and encryption of personal data) to ensure a level of security which is appropriate to the risk (e.g. Pseudonymization and encryption of personal data ) (See <a href="https://www.privacy-regulation.eu/en/article-32-security-of-processing-GDPR.htm" target="_blank">GDPR Article 30</a>)', 'de', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A001', 'Yes', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A002', 'No', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A003', 'Partially implemented', 'de', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009', 'When a data breach occurred, has your company notified it,  with all elements requested by the gdpr , to the nationaldata protection authority? (See <a href="https://www.privacy-regulation.eu/en/article-33-notification-of-a-personal-data-breach-to-the-supervisory-authority-GDPR.htm" target="_blank">GDPR Article 33</a>)', 'de', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A001', 'Within 72 hours after having become aware of it', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A002', 'After 72 hours, accompanied by the reasons for the delay', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A003', 'Any notification has been provided, but the data breach is unlikely to result in a risk to the rights and freedoms of natural persons', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A004', 'No notification has been provided ', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A005', 'Not applicable ', 'de', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010', 'Has your company communicated the personal data breach that occurred to the data subject where it is likely to result in a high risk to his rights and freedoms? (See <a href="https://www.privacy-regulation.eu/en/article-34-communication-of-a-personal-data-breach-to-the-data-subject-GDPR.htm" target="_blank">GDPR Article 34</a>)', 'de', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010A001', 'Yes', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010A002', 'No, but you have implemented appropriate technical and organizational protection measures, such as encryption; you have taken subsequent measures which ensure that the high risk to the rights and freedoms of data subjects is no longer likely to materialize', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010A003', 'No', 'de', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011', 'Did you proceed with the data protection impact assessment when needed? (See <a href="https://www.privacy-regulation.eu/en/article-35-data-protection-impact-assessment-GDPR.htm" target="_blank">GDPR Article 35</a>)', 'de', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A001', 'Yes', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A002', 'No', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A003', 'Partially implemented', 'de', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012', 'Has your company appointed a data protection officer  when requested by the gdpr? (See <a href="https://www.privacy-regulation.eu/en/article-37-designation-of-the-data-protection-officer-GDPR.htm" target="_blank">GDPR Article 37</a>) ', 'de', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012A001', 'Yes', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012A002', 'No', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012A003', 'Partially implemented', 'de', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013', '18.	Is Any Personal Data Transferred To Third  Countries (Outside The Eu) (See Article <a href="https://www.privacy-regulation.eu/en/article-44-general-principle-for-transfers-GDPR.htm" target="_blank">44</a>-<a href="https://www.privacy-regulation.eu/en/article-45-transfers-on-the-basis-of-an-adequacy-decision-GDPR.htm" target="_blank">45</a>-<a href="https://www.privacy-regulation.eu/en/article-46-transfers-subject-to-appropriate-safeguards-GDPR.htm" target="_blank">46</a>-<a href="https://www.privacy-regulation.eu/en/article-47-binding-corporate-rules-GDPR.htm" target="_blank">47</a>-<a href="https://www.privacy-regulation.eu/en/article-48-transfers-or-disclosures-not-authorised-by-union-law-GDPR.htm" target="_blank">48</a>)', 'de', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013A001', 'Yes, and the transfer is justified by one of the conditions indicated by the GDPR (e.g. A decision of the European Commission establishing that the third country has an adequate level of protection; Binding Corporate Rules (BCR) or Standard Contractual Clauses (SCC).', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013A002', 'Yes, but you have only partially implemented the above obligations.', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013A003', 'Yes, but the transfer is not justified by any of the conditions indicated by the GDPR. ', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013A004', 'No', 'de', 'A');
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q014', 'Do you know if you might be potentially subject to gdpr sanctions?', 'de', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q014A001', 'Yes', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q014A002', 'No', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q014A003', 'Partially aware', 'de', 'A');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003', 'Do you need and do you have a registry (or record) of the personal data processing that happens within your company?', 'fr', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A001', 'Such a registry is not needed in our business.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A002', 'It is needed but we have no clear idea what exactly to list there.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A003', 'It is needed but let the data privacy responsible handle it, it is his/her job.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A004', 'We have started inventorying but we do not have a full record of processing activities yet.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A005', 'We need it and we do have a full record of processing activities.', 'fr', 'A');
+   
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004', 'Have you updated your website with respect to data protection, after 25th May 2018? (e.g., anything related to the privacy notice, GDPR disclaimer, cookies banners, etc)', 'fr', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004A001', 'No, as we don’t have a website.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004A002', 'No, we have had no change on the website yet related to GDPR.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004A003', 'Yes, we have updated the website with regards to GDPR.', 'fr', 'A');
 
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005', 'How did you inform the data subjects about the processing of their personal data performed by your company?', 'fr', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A001', 'We have given no information whatsoever.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A002', 'On the website we added a small GDPR note, but not more.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A003', 'We updated terms and conditions for clients and contractors.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A003', 'We updated contracts with our employees / we had them sign an addendum on GDPR.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A003', 'We added stickers in our areas with video surveillance.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A003', 'We started an intranet page for employees on this topic.', 'fr', 'A');
+
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q006', 'To what extent do you know if your company is processing personal data with a legal basis (one of: contract execution, legal requirement, public/vital interest, legitimate interest, consent)?', 'fr', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q006A001', 'We don’t know if we have a legal basis for any personal data processing we perform.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q006A002', 'There is a chance we process some data without always a legal basis.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q006A003', 'We have a legal basis for all the personal data we are processing.', 'fr', 'A');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007', 'How do you deal with setting the limits for the duration of personal data processing?', 'fr', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007A001', 'We don’t care, we keep this data forever.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007A002', 'We don’t know for sure how to deal with it.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007A003', 'We have fixed some storage limits for certain data types.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007A004', 'We have data storage limits that are enforced on personal data.', 'fr', 'A');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008', 'How would your company handle an incident that could be considered a personal data breach (e.g., accidental loss, destruction, alteration or theft of data that also is personal data)?', 'fr', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A001', 'No idea, as nothing like that has ever happened to our knowledge.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A002', 'The reaction will be case by case.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A003', 'We would handle it internally based on our security incident management procedures.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A004', 'We would report it to the national data protection authority within 72h.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A005', 'We would inform the data subjects immediately.', 'fr', 'A');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009', 'How would your company handle a request for the exercise of a data subject right, if that would appear now in your mailbox?', 'fr', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A001', 'Nothing, it would not happen to us as we don’t have personal data of externals.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A002', 'We would handle it to the legal department representative, to handle in the near future.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A003', 'It would arrive on the agenda of the privacy responsible, to handle in the near future.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A004', 'We would need to react within one month.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A005', 'Several departments might need to collaborate to reply.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A006', 'We would directly do what the person asked us to, regarding their personal data.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A007', 'We would ask the person to pay a fee.', 'fr', 'A');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010', 'Has your company appointed a privacy responsible or a Data Protection Officer (DPO)?', 'fr', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010A001', 'We don’t need either of the two', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010A002', 'We don’t yet have one as we are unsure if we need a DPO.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010A003', 'We have an official DPO.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010A003', 'We have a privacy responsible but not a formal DPO.', 'fr', 'A');
+    
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011', 'What kind of risk analyses have you performed in what concerns privacy/GDPR risks?', 'fr', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A001', 'None whatsoever, as we have no personal data.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A002', 'None specific to privacy so far, as we don’t have a lot of personal data.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A003', 'We have performed at least one data protection impact assessment ', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A003', 'We performed several data protection impact assessments before GDPR came into force, and the authority agreed with them so we keep them.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A003', 'We have a more general risk analysis.', 'fr', 'A');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012', 'How many contracts with contractors/ partners have you reviewed after May 2018, with respect to GDPR clauses and personal data being processed?', 'fr', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012A001', 'None, we don’t have any such contracts.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012A002', 'None, but we have some contracts.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012A003', 'Some of the contracts but not all.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012A003', 'All of the contracts in place have been reviewed and updated.', 'fr', 'A');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013', 'How do you enable privacy by default and by design in your new projects or products?', 'fr', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013A001', 'We don’t enable it.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013A002', 'What is that?', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013A003', 'We have some legal paperwork that is signed when projects start.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013A004', 'We look briefly at what personal data will be used, and decide in relation to that.', 'fr', 'A');
+
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q014', 'If there are any transfers of personal data processed by your company, to the outside of the the European Economic Area (EU plus Iceland, Lichtenstein, Norway), what are the legal measures of protection in place?', 'fr', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q014A001', 'We have no data transfers outside of EEA.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q014A002', 'We are transferring to 1/more adequacy decision countries, so nothing else to do for us.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q014A003', 'We have Standard Contractual Clauses or Binding Corporate Rules or a Code of Conduct in place.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q014A003', 'No idea what we have in place, but we do have transfers of personal data.', 'fr', 'A');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q015', 'How do you handle information security risks?', 'fr', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q015A001', 'We don’t handle them.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q015A002', 'We have performed at some point a risk analysis but we don’t iterate on it.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q015A003', 'We review our risks periodically.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q015A003', 'We review our risks periodically and we perform external audit regularly or we have an information security certification (e.g ISO 2700x).', 'fr', 'A');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q016', 'How often do you train your employees on information security?', 'fr', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q016A001', 'Never or not really.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q016A002', 'One time, when they are hired.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q016A003', 'We train them periodically.', 'fr', 'A');
+ 
+ INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q017', 'To what extent are the rules (procedures / guidelines / good practices) concerning information security and privacy in your organisation written and known to your employees?', 'fr', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q017A001', 'They are not written.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q017A002', 'They were written some time ago, but not known to all employees, and not up to date.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q017A003', 'They are written, approved by the management, known from all the employees and re-viewed periodically.', 'fr', 'A');
+ 
+ 
+
+-- ANSWERS IN EN
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001', 'If your company processes personal data, how much personal data (i.e. of how many data subjects, data quantity per data subject on average) does it process:', 'en', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A001', 'We don’t process personal data at all.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A002', 'We process some personal data (but very limited) of employees.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A003', 'We process a lot of personal data of employees.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A004', 'We process some personal data of clients/users, and we have under 500 clients.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A005', 'We process some personal data of clients/users, and we have between 500 and 10 000 clients/users.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A006', 'We process some personal data of clients/users, and we have over 10 000 clients/users.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A007', 'We monitor behaviour of data subjects as part of our business, and they are a lot.', 'en', 'A');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002', 'Does your company process personal data that can be sensitive (e.g., taken out of context, can be used to infer racial or ethnic origin, political opinions, religious or philosophical beliefs, trade union membership, genetic data, biometric data, sex life or sexual orientation)? (See <a href="https://www.privacy-regulation.eu/en/article-9-processing-of-special-categories-of-personal-data-GDPR.htm" target="_blank">GDPR Article 9</a>)', 'en', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A001', 'No, we do not process any sensitive personal data at all.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A002', 'We do not process any sensitive data from the above but we do process some criminal records when hiring.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A003', 'Yes, we process at least one of the above.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A004', 'We do not know if we do.', 'en', 'A');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003', 'Do you need and do you have a registry (or record) of the personal data processing that happens within your company?', 'en', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A001', 'Such a registry is not needed in our business.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A002', 'It is needed but we have no clear idea what exactly to list there.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A003', 'It is needed but let the data privacy responsible handle it, it is his/her job.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A004', 'We have started inventorying but we do not have a full record of processing activities yet.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A005', 'We need it and we do have a full record of processing activities.', 'en', 'A');
+   
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004', 'Have you updated your website with respect to data protection, after 25th May 2018? (e.g., anything related to the privacy notice, GDPR disclaimer, cookies banners, etc)', 'en', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004A001', 'No, as we don’t have a website.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004A002', 'No, we have had no change on the website yet related to GDPR.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004A003', 'Yes, we have updated the website with regards to GDPR.', 'en', 'A');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005', 'How did you inform the data subjects about the processing of their personal data performed by your company? ', 'en', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A001', 'We have given no information whatsoever.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A002', 'On the website we added a small GDPR note, but not more.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A003', 'We updated terms and conditions for clients and contractors.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A003', 'We updated contracts with our employees / we had them sign an addendum on GDPR.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A003', 'We added stickers in our areas with video surveillance.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A003', 'We started an intranet page for employees on this topic.', 'en', 'A');
+
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q006', 'To what extent do you know if your company is processing personal data with a legal basis (one of: contract execution, legal requirement, public/vital interest, legitimate interest, consent)?', 'en', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q006A001', 'We don’t know if we have a legal basis for any personal data processing we perform.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q006A002', 'There is a chance we process some data without always a legal basis.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q006A003', 'We have a legal basis for all the personal data we are processing.', 'en', 'A');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007', 'How do you deal with setting the limits for the duration of personal data processing?', 'en', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007A001', 'We don’t care, we keep this data forever.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007A002', 'We don’t know for sure how to deal with it.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007A003', 'We have fixed some storage limits for certain data types.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007A004', 'We have data storage limits that are enforced on personal data.', 'en', 'A');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008', 'How would your company handle an incident that could be considered a personal data breach (e.g., accidental loss, destruction, alteration or theft of data that also is personal data)?', 'en', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A001', 'No idea, as nothing like that has ever happened to our knowledge.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A002', 'The reaction will be case by case.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A003', 'We would handle it internally based on our security incident management procedures.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A004', 'We would report it to the national data protection authority within 72h.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A005', 'We would inform the data subjects immediately.', 'en', 'A');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009', 'How would your company handle a request for the exercise of a data subject right, if that would appear now in your mailbox?', 'en', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A001', 'Nothing, it would not happen to us as we don’t have personal data of externals.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A002', 'We would handle it to the legal department representative, to handle in the near future.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A003', 'It would arrive on the agenda of the privacy responsible, to handle in the near future.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A004', 'We would need to react within one month.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A005', 'Several departments might need to collaborate to reply.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A006', 'We would directly do what the person asked us to, regarding their personal data.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A007', 'We would ask the person to pay a fee.', 'en', 'A');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010', 'Has your company appointed a privacy responsible or a Data Protection Officer (DPO)?', 'en', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010A001', 'We don’t need either of the two', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010A002', 'We don’t yet have one as we are unsure if we need a DPO.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010A003', 'We have an official DPO.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010A003', 'We have a privacy responsible but not a formal DPO.', 'en', 'A');
+    
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011', 'What kind of risk analyses have you performed in what concerns privacy/GDPR risks?', 'en', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A001', 'None whatsoever, as we have no personal data.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A002', 'None specific to privacy so far, as we don’t have a lot of personal data.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A003', 'We have performed at least one data protection impact assessment ', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A003', 'We performed several data protection impact assessments before GDPR came into force, and the authority agreed with them so we keep them.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A003', 'We have a more general risk analysis.', 'en', 'A');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012', 'How many contracts with contractors/ partners have you reviewed after May 2018, with respect to GDPR clauses and personal data being processed?', 'en', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012A001', 'None, we don’t have any such contracts.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012A002', 'None, but we have some contracts.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012A003', 'Some of the contracts but not all.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012A003', 'All of the contracts in place have been reviewed and updated.', 'en', 'A');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013', 'How do you enable privacy by default and by design in your new projects or products?', 'en', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013A001', 'We don’t enable it.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013A002', 'What is that?', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013A003', 'We have some legal paperwork that is signed when projects start.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013A004', 'We look briefly at what personal data will be used, and decide in relation to that.', 'en', 'A');
+
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q014', 'If there are any transfers of personal data processed by your company, to the outside of the the European Economic Area (EU plus Iceland, Lichtenstein, Norway), what are the legal measures of protection in place?', 'en', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q014A001', 'We have no data transfers outside of EEA.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q014A002', 'We are transferring to 1/more adequacy decision countries, so nothing else to do for us.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q014A003', 'We have Standard Contractual Clauses or Binding Corporate Rules or a Code of Conduct in place.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q014A003', 'No idea what we have in place, but we do have transfers of personal data.', 'en', 'A');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q015', 'How do you handle information security risks?', 'en', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q015A001', 'We don’t handle them.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q015A002', 'We have performed at some point a risk analysis but we don’t iterate on it.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q015A003', 'We review our risks periodically.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q015A003', 'We review our risks periodically and we perform external audit regularly or we have an information security certification (e.g ISO 2700x).', 'en', 'A');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q016', 'How often do you train your employees on information security?', 'en', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q016A001', 'Never or not really.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q016A002', 'One time, when they are hired.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q016A003', 'We train them periodically.', 'en', 'A');
+ 
+ INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q017', 'To what extent are the rules (procedures / guidelines / good practices) concerning information security and privacy in your organisation written and known to your employees?', 'en', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q017A001', 'They are not written.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q017A002', 'They were written some time ago, but not known to all employees, and not up to date.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q017A003', 'They are written, approved by the management, known from all the employees and re-viewed periodically.', 'en', 'A');
+ 
+
+-- ANSWERS IN DE
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001', 'If your company processes personal data, how much personal data (i.e. of how many data subjects, data quantity per data subject on average) does it process:', 'de', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A001', 'We don’t process personal data at all.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A002', 'We process some personal data (but very limited) of employees.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A003', 'We process a lot of personal data of employees.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A004', 'We process some personal data of clients/users, and we have under 500 clients.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A005', 'We process some personal data of clients/users, and we have between 500 and 10 000 clients/users.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A006', 'We process some personal data of clients/users, and we have over 10 000 clients/users.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A007', 'We monitor behaviour of data subjects as part of our business, and they are a lot.', 'de', 'A');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002', 'Does your company process personal data that can be sensitive (e.g., taken out of context, can be used to infer racial or ethnic origin, political opinions, religious or philosophical beliefs, trade union membership, genetic data, biometric data, sex life or sexual orientation)? ', 'de', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A001', 'No, we do not process any sensitive personal data at all.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A002', 'We do not process any sensitive data from the above but we do process some criminal records when hiring.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A003', 'Yes, we process at least one of the above.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A004', 'We do not know if we do.', 'de', 'A');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003', 'Do you need and do you have a registry (or record) of the personal data processing that happens within your company?', 'de', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A001', 'Such a registry is not needed in our business.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A002', 'It is needed but we have no clear idea what exactly to list there.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A003', 'It is needed but let the data privacy responsible handle it, it is his/her job.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A004', 'We have started inventorying but we do not have a full record of processing activities yet.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A005', 'We need it and we do have a full record of processing activities.', 'de', 'A');
+   
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004', 'Have you updated your website with respect to data protection, after 25th May 2018? (e.g., anything related to the privacy notice, GDPR disclaimer, cookies banners, etc)', 'de', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004A001', 'No, as we don’t have a website.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004A002', 'No, we have had no change on the website yet related to GDPR.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004A003', 'Yes, we have updated the website with regards to GDPR.', 'de', 'A');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005', 'How did you inform the data subjects about the processing of their personal data performed by your company? ', 'de', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A001', 'We have given no information whatsoever.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A002', 'On the website we added a small GDPR note, but not more.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A003', 'We updated terms and conditions for clients and contractors.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A003', 'We updated contracts with our employees / we had them sign an addendum on GDPR.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A003', 'We added stickers in our areas with video surveillance.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A003', 'We started an intranet page for employees on this topic.', 'de', 'A');
+
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q006', 'To what extent do you know if your company is processing personal data with a legal basis (one of: contract execution, legal requirement, public/vital interest, legitimate interest, consent)?', 'de', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q006A001', 'We don’t know if we have a legal basis for any personal data processing we perform.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q006A002', 'There is a chance we process some data without always a legal basis.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q006A003', 'We have a legal basis for all the personal data we are processing.', 'de', 'A');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007', 'How do you deal with setting the limits for the duration of personal data processing?', 'de', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007A001', 'We don’t care, we keep this data forever.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007A002', 'We don’t know for sure how to deal with it.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007A003', 'We have fixed some storage limits for certain data types.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007A004', 'We have data storage limits that are enforced on personal data.', 'de', 'A');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008', 'How would your company handle an incident that could be considered a personal data breach (e.g., accidental loss, destruction, alteration or theft of data that also is personal data)?', 'de', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A001', 'No idea, as nothing like that has ever happened to our knowledge.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A002', 'The reaction will be case by case.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A003', 'We would handle it internally based on our security incident management procedures.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A004', 'We would report it to the national data protection authority within 72h.', 'de', 'A');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009', 'How would your company handle a request for the exercise of a data subject right, if that would appear now in your mailbox?', 'de', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A001', 'Nothing, it would not happen to us as we don’t have personal data of externals.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A002', 'We would handle it to the legal department representative, to handle in the near future.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A003', 'It would arrive on the agenda of the privacy responsible, to handle in the near future.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A004', 'We would need to react within one month.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A005', 'Several departments might need to collaborate to reply.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A006', 'We would directly do what the person asked us to, regarding their personal data.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A007', 'We would ask the person to pay a fee.', 'de', 'A');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010', 'Has your company appointed a privacy responsible or a Data Protection Officer (DPO)?', 'de', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010A001', 'We don’t need either of the two', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010A002', 'We don’t yet have one as we are unsure if we need a DPO.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010A003', 'We have an official DPO.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010A003', 'We have a privacy responsible but not a formal DPO.', 'de', 'A');
+    
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011', 'What kind of risk analyses have you performed in what concerns privacy/GDPR risks?', 'de', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A001', 'None whatsoever, as we have no personal data.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A002', 'None specific to privacy so far, as we don’t have a lot of personal data.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A003', 'We have performed at least one data protection impact assessment ', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A003', 'We performed several data protection impact assessments before GDPR came into force, and the authority agreed with them so we keep them.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A003', 'We have a more general risk analysis.', 'de', 'A');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012', 'How many contracts with contractors/ partners have you reviewed after May 2018, with respect to GDPR clauses and personal data being processed?', 'de', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012A001', 'None, we don’t have any such contracts.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012A002', 'None, but we have some contracts.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012A003', 'Some of the contracts but not all.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012A003', 'All of the contracts in place have been reviewed and updated.', 'de', 'A');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013', 'How do you enable privacy by default and by design in your new projects or products?', 'de', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013A001', 'We don’t enable it.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013A002', 'What is that?', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013A003', 'We have some legal paperwork that is signed when projects start.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013A004', 'We look briefly at what personal data will be used, and decide in relation to that.', 'de', 'A');
+
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q014', 'If there are any transfers of personal data processed by your company, to the outside of the the European Economic Area (EU plus Iceland, Lichtenstein, Norway), what are the legal measures of protection in place?', 'de', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q014A001', 'We have no data transfers outside of EEA.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q014A002', 'We are transferring to 1/more adequacy decision countries, so nothing else to do for us.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q014A003', 'We have Standard Contractual Clauses or Binding Corporate Rules or a Code of Conduct in place.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q014A003', 'No idea what we have in place, but we do have transfers of personal data.', 'de', 'A');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q015', 'How do you handle information security risks?', 'de', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q015A001', 'We don’t handle them.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q015A002', 'We have performed at some point a risk analysis but we don’t iterate on it.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q015A003', 'We review our risks periodically.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q015A003', 'We review our risks periodically and we perform external audit regularly or we have an information security certification (e.g ISO 2700x).', 'de', 'A');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q016', 'How often do you train your employees on information security?', 'de', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q016A001', 'Never or not really.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q016A002', 'One time, when they are hired.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q016A003', 'We train them periodically.', 'de', 'A');
+ 
+ INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q017', 'To what extent are the rules (procedures / guidelines / good practices) concerning information security and privacy in your organisation written and known to your employees?', 'de', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q017A001', 'They are not written.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q017A002', 'They were written some time ago, but not known to all employees, and not up to date.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q017A003', 'They are written, approved by the management, known from all the employees and re-viewed periodically.', 'de', 'A');
+ 
+ -------------- Recommendations IN FR
 -- FR
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001REC001', 'Need the recommendation for question 1.', 'fr', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001REC001', 'If your company has employees or clients or both, it certainly processes personal data. Therefore, it must be subject to GDPR.', 'fr', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001REC002', 'Your company seems to be processing a medium/large amount of personal data, therefore consider putting the people and resources in place to quantify the risks relative to GDPR. ', 'fr', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001REC003', 'Your company doesn’t seem to process data about a lot of data subjects - either employees or clients - but even if a DPO might not be mandatory, consider appointing at least a data privacy responsible and taking the first steps towards GDPR: understanding the data being processed, and the risks.', 'fr', 'R');
 
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002REC001', 'Need the recommendation for question 2', 'fr', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002REC001', 'You should investigate if such personal data is being processed by your company. The reason is that this type of personal data is considered by GDPR to be more dangerous to process (from the point of view of the data subject) than other type of personal data. Therefore, it requires a higher level of protection.', 'fr', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002REC002', 'Pay attention to the regime of treating the data relative to criminal records. Even if it is not sensitive data, it should be treated in the same way as the sensitive data mentioned in the question.', 'fr', 'R');
 
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003REC001', 'You have to take in account the following:
-- Establish your lawful basis for processing
--	Ensure you inform individuals about the processing in your privacy notice
--	Introduce a process for individuals to access the data that has been collected within your activities and to eventually request a review of it
-- Maintain and update regularly the record of all your processing
-- Where you are sharing data routinely, implement appropriate data sharing agreements (DSA ) with all parties involved in the processing
--	Provide appropriate training to staff to raise awareness about GDPR obligations
--	Ensure the destruction of any kind of personal data that is not necessary any more for the processing purpose
--	Assess, for every data processed, the necessary period of storage
-', 'fr', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003REC001', 'The main idea of GDPR is to have a risk-based approach to personal data processing, so without knowledge about what personal data is there and how it is processed, it will be impossible to know what the risks are. Therefore, you should consider, in your business, to acquire some understanding both on the quantity and risks of personal data that your company processes. In this case, Article 30 of GDPR should be the starting point. ', 'fr', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003REC002', 'We suggest that you split the task in several sub-tasks: you can have different departments responsible of their own record of processing activities, relative to the data they process and the processes they own. In a second stage, the different records can be put together into a single one after a consistency review. In a third stage, the registry (or record) needs to be reviewed and maintained from one year to the next.', 'fr', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003REC003', 'It should not be the responsibility of the DPO only to inventory the data processing activities, because he/she should not be involved in most of those business activities anyway. It should be the business stakeholders to inventory data processing activities within all departments, and the role of the DPO or data privacy responsible, should be to challenge and have an overview of the inventory.', 'fr', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003REC004', 'It is good that your company started to inventory its data, yet it will be better to have it ready as soon as possible, to be prepared for any CNPD inspection or visit. The fuller the picture over the personal data processing that takes place within your company, the better the view over the risks incurred based on this picture, and hence the more accurate the action plans that follow.', 'fr', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003REC005', 'It is great that your company has a clear idea over the data processing it performs. Remember that the inventory should give an accurate and complete picture of the processing activities within your company, so it should be reviewed and maintained from one year to the next. The good news is that if it was done well once, it will be easy to update/change afterwards.', 'fr', 'R');
 
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004REC001', 'It’s important to process only the data that is strictly necessary for the specific purpose of the processing and if possible implement pseudonymization techniques, if possible', 'fr', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004REC001', 'Especially if your company’s website processes personal data (e.g., it is possible to gather information about users even via Google Analytics, or users can log in for a custom-ised experience), it  is good practice to update the privacy notice on the website, to re-flect GDPR conditions (the existence of personal data processing by the company, the existence of the DPO or not, the possibility to exercise rights, etc). Normally, Art. 13 or 14 of GDPR should be followed in this case. ', 'fr', 'R');
 
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005REC001', 'The joint-processing of personal data needs a specific arrangement between the parties, describing the respective role and responsibilities for GDPR compliance, especially regarding the data subject rights.', 'fr', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005REC001', 'Your company should consider informing all types of data subjects whose data it processes, of the existence of the processing, the conditions you put in place to protect their data, and their rights over their data. Your employees (interns or collaborators), clients and any other users should be informed, in this respect. You should consider following Art. 13 and 14 of GDPR when it comes to this information.', 'fr', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005REC002', 'Make sure all data subjects are covered (clients AND employees), and that your company follows the points mentioned by Art. 13 and 14 of GDPR.', 'fr', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005REC003', 'It makes sense to inform data subjects via different channels, and always with respect to the personal data in question. Stickers in areas with video surveillance as well as updated information on the intranet page, as well as general information related to the personal da-ta processed via your website. Above all, do not forget the terms and conditions for clients and contractors, and information to employees as part of their contract (or addendum).', 'fr', 'R');
 
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q006REC001', 'In order to be compliant with GDPR, all personal data processing needs to have a legal reason why that information is processed. Your company should instate a registry /record of personal data processing activities, and during this exercise, to identify the legal basis and document it. Consent, as a legal basis, should be the option that should be the least used (preferably to be avoided). Consider following Art.6 of GDPR, from this point of view.', 'fr', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q006REC002', 'In order to be compliant with GDPR, all personal data processing needs to have a legal reason why that information is processed (Art. 6 of GDPR). If your company has a purpose for that processing (i.e. a business reason), then a legal basis should be instated for that processing (e.g., contract execution, public/vital interest, legitimate interest, consent). If there is no business purpose, and no legal basis, then there should be no reason why that personal data should be processed. So, either you give up the processing, or you instate a legal basis for it. ', 'fr', 'R');
 
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q006REC001', 'If you happen to be the controller, you shall provide a prior written authorization to the data processor. As controller, you shall engage only processors providing sufficient guarantees for correctly implementing GDPR obligations.
-If you happen to be the processor, processing shall be prior and in writing authorized by the data controller. The data processing shall be regulated with a contract or other legal act under Union or Member state law.
-The persons authorized to process personal data as controllers have to commit themselves to confidentiality.
-', 'fr', 'R');
-
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007REC001', 'For every processing activity, if you meet the conditions under the GDPR you shall create a record containing all information required by article 30. If a new process is made, you shall update the record.', 'fr', 'R');
-
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008REC001', 'Need recommendation for question 7', 'fr', 'R');
-
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009REC001', 'You should	implement an internal data breach response policy. To avoid data breaches, develop, implement and communicate an information security policy where periodic checks for compliance with this policy are done.
-You should also deliver regular staff training on all areas within the information security policy.
-If personal data is accessible by one or more third parties, Non- disclosure Agreements (NDAs) should be signed with them.
-', 'fr', 'R');
-
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011REC001', 'A Data Protection Impact Assessment (DPIA ) shall be carried out to identify whether any of your processing operations is likely to result in a high risk to the rights and freedoms of natural persons, in particular when your activities consist of profiling individuals or you process special categories of data on a large scale.
-Implement an internal DPIA process and train your staff on how to conduct the assessment.
-Review all your existing risk and project management processes and ensure there is consistency with the DPIA process in place.
-', 'fr', 'R');
-
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012REC001', 'Appoint a DPO if required, or designate internally a person responsible for the data protection compliance and support this individual through appropriate resources and training.
-Ensure that you have appropriate reporting mechanisms in place between the individual responsible for data protection compliance and senior management.
-Register the details of your DPO with the national Data Protection Authority.
-', 'fr', 'R');
-
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013REC001', 'Ensure that any data you transfer outside the EU complies with the conditions for transfer set out in Chapter V GDPR.
-If you want to justify the international data transfer under the conditions of article 45 GDPR, ensure that the country of destination is listed among those considered by the European Commission as ensuring adequate level of protection.
-Ensure that you have adequate safeguards and data security in place.
-Implement periodical audit measures regarding the international data transfer.
-', 'fr', 'R');
-
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q014REC001', 'Fines of up to €10 million or 2% of annual global turnover can be issued for infringements of articles:
--	8 GDPR (conditions for children’s consent);
--	11 GDPR (processing that doesn’t require identification);
--	25 – 39 GPDR (general obligations of processors and controllers);
--	42 and 43 GDPR (certification and certification bodies).
-
-Fines of up to €20 million or 4% of annual global turnover can be issued for infringements of articles:
-
--	5 GDPR (data processing principles);
--	6 GDPR (lawfulness of processing);
--	7 GDPR (conditions for consent);
--	9 GDPR (processing of special categories of data);
--	12 – 22 GDPR (data subjects’ rights); and
--	44 – 49 (data transfers to third countries or international organisations).
-', 'fr', 'R');
-
--- EN
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001REC001', 'Need the recommendation for question 1.', 'en', 'R');
-
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002REC001', 'Need the recommendation for question 2', 'en', 'R');
-
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003REC001', 'You have to take in account the following:
-- Establish your lawful basis for processing
--	Ensure you inform individuals about the processing in your privacy notice
--	Introduce a process for individuals to access the data that has been collected within your activities and to eventually request a review of it
-- Maintain and update regularly the record of all your processing
-- Where you are sharing data routinely, implement appropriate data sharing agreements (DSA ) with all parties involved in the processing
--	Provide appropriate training to staff to raise awareness about GDPR obligations
--	Ensure the destruction of any kind of personal data that is not necessary any more for the processing purpose
--	Assess, for every data processed, the necessary period of storage
-', 'en', 'R');
-
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004REC001', 'It’s important to process only the data that is strictly necessary for the specific purpose of the processing and if possible implement pseudonymization techniques, if possible', 'en', 'R');
-
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005REC001', 'The joint-processing of personal data needs a specific arrangement between the parties, describing the respective role and responsibilities for GDPR compliance, especially regarding the data subject rights.', 'en', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007REC001', 'One of the principles of GDPR is to instate a duration of processing of personal data, because no processing can actually last forever. Therefore, your company should consider removing the personal data that is kept indefinitely if there is no reason for its processing, otherwise a duration of storage should be decided on, and enforced.', 'fr', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007REC002', 'In order to fill in the record of processing activities, as per Art. 30 of GDPR, a duration of storage must be decided upon and enforced on the personal data that is processed by the organisation. If you discover that the storage limit has not been decided upon, then the recommendation is to consider all the important types of personal data for which there are limits that arrive from regulatory frameworks (e.g., financial data, criminal record data, anti-money laundering related data, etc). For other types of personal data for which there is no regulation to explicitly fix its storage time, the company can decide for a dura-tion that makes sense, and take actions to put that limitation in practice for both paper and electronic support of such data', 'fr', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007REC003', 'While it is true that deciding on and enforcing data storage limitation is a considerable challenge for most organisations, what the GDPR and data protection authorities expect is enforcing this principle on all personal data types. Therefore, in your case, you should be able to explain (1) why for some personal data types you have this storage limitation in place, but not for other personal data types, and (2) how you plan to improve over time and hence extend storage limitation over all data types.', 'fr', 'R');
 
 
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q006REC001', 'If you happen to be the controller, you shall provide a prior written authorization to the data processor. As controller, you shall engage only processors providing sufficient guarantees for correctly implementing GDPR obligations.
-If you happen to be the processor, processing shall be prior and in writing authorized by the data controller. The data processing shall be regulated with a contract or other legal act under Union or Member state law.
-The persons authorized to process personal data as controllers have to commit themselves to confidentiality.
-', 'en', 'R');
-
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007REC001', 'For every processing activity, if you meet the conditions under the GDPR you shall create a record containing all information required by article 30. If a new process is made, you shall update the record.', 'en', 'R');
-
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008REC001', 'Need recommendation for question 8', 'en', 'R');
-
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009REC001', 'You should	implement an internal data breach response policy. To avoid data breaches, develop, implement and communicate an information security policy where periodic checks for compliance with this policy are done.
-You should also deliver regular staff training on all areas within the information security policy.
-If personal data is accessible by one or more third parties, Non- disclosure Agreements (NDAs) should be signed with them.
-', 'en', 'R');
-
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011REC001', 'A Data Protection Impact Assessment (DPIA ) shall be carried out to identify whether any of your processing operations is likely to result in a high risk to the rights and freedoms of natural persons, in particular when your activities consist of profiling individuals or you process special categories of data on a large scale.
-Implement an internal DPIA process and train your staff on how to conduct the assessment.
-Review all your existing risk and project management processes and ensure there is consistency with the DPIA process in place.
-', 'en', 'R');
-
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012REC001', 'Appoint a DPO if required, or designate internally a person responsible for the data protection compliance and support this individual through appropriate resources and training.
-Ensure that you have appropriate reporting mechanisms in place between the individual responsible for data protection compliance and senior management.
-Register the details of your DPO with the national Data Protection Authority.
-', 'en', 'R');
-
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013REC001', 'Ensure that any data you transfer outside the EU complies with the conditions for transfer set out in Chapter V GDPR.
-If you want to justify the international data transfer under the conditions of article 45 GDPR, ensure that the country of destination is listed among those considered by the European Commission as ensuring adequate level of protection.
-Ensure that you have adequate safeguards and data security in place.
-Implement periodical audit measures regarding the international data transfer.
-', 'en', 'R');
-
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q014REC001', 'Fines of up to €10 million or 2% of annual global turnover can be issued for infringements of articles:
--	8 GDPR (conditions for children’s consent);
--	11 GDPR (processing that doesn’t require identification);
--	25 – 39 GPDR (general obligations of processors and controllers);
--	42 and 43 GDPR (certification and certification bodies).
-
-Fines of up to €20 million or 4% of annual global turnover can be issued for infringements of articles:
-
--	5 GDPR (data processing principles);
--	6 GDPR (lawfulness of processing);
--	7 GDPR (conditions for consent);
--	9 GDPR (processing of special categories of data);
--	12 – 22 GDPR (data subjects’ rights); and
--	44 – 49 (data transfers to third countries or international organisations).
-', 'en', 'R');
-
--- DE
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001REC001', 'Need the recommendation for question 1.', 'de', 'R');
-
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002REC001', 'Need the recommendation for question 2', 'de', 'R');
-
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003REC001', 'You have to take in account the following:
-- Establish your lawful basis for processing
--	Ensure you inform individuals about the processing in your privacy notice
--	Introduce a process for individuals to access the data that has been collected within your activities and to eventually request a review of it
-- Maintain and update regularly the record of all your processing
-- Where you are sharing data routinely, implement appropriate data sharing agreements (DSA ) with all parties involved in the processing
--	Provide appropriate training to staff to raise awareness about GDPR obligations
--	Ensure the destruction of any kind of personal data that is not necessary any more for the processing purpose
--	Assess, for every data processed, the necessary period of storage
-', 'de', 'R');
-
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004REC001', 'It’s important to process only the data that is strictly necessary for the specific purpose of the processing and if possible implement pseudonymization techniques, if possible', 'de', 'R');
-
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005REC001', 'The joint-processing of personal data needs a specific arrangement between the parties, describing the respective role and responsibilities for GDPR compliance, especially regarding the data subject rights.', 'de', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008REC001', 'In terms of handling data breaches, GDPR is relatively strict, in that there should be a re-porting made towards the data protection authorities within 72h from the moment the company becomes aware of the incident. For CNPD, there is a form that should be filled in, at the time of this reporting, answering several questions about the incident and how it has been handled. Due to these requirements, the reaction to data breaches cannot be case by case. Consider having a procedure or documented process to handle such incidents, and be sure that responsibilities have been clearly identified and actions to be performed are clear to the staff who will be involved in this process. ', 'fr', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008REC002', 'In terms of handling data breaches, GDPR is relatively strict, in that there should be a re-porting made towards the data protection authorities within 72h from the moment the company becomes aware of the incident. For CNPD, there is a form that should be filled in, at the time of this reporting, answering several questions about the incident and how it has been handled. It is good that you have an incident management procedure, yet this should be amended to allow for situations where a data breach might have occurred (so, identifying the impact on personal data, linking with the appropriate staff, and ensuring the tasks are clear with regards to reaction to personal data breaches).', 'fr', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008REC003', 'Ensure that there is a procedure or documented process to describe the concrete steps of reaction to a data breach. Data subjects don’t always need to be informed but this is an action that would be a second order decision (the first one is to report to the data protection authority).', 'fr', 'R');
 
 
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q006REC001', 'If you happen to be the controller, you shall provide a prior written authorization to the data processor. As controller, you shall engage only processors providing sufficient guarantees for correctly implementing GDPR obligations.
-If you happen to be the processor, processing shall be prior and in writing authorized by the data controller. The data processing shall be regulated with a contract or other legal act under Union or Member state law.
-The persons authorized to process personal data as controllers have to commit themselves to confidentiality.
-', 'de', 'R');
 
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007REC001', 'For every processing activity, if you meet the conditions under the GDPR you shall create a record containing all information required by article 30. If a new process is made, you shall update the record.', 'de', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009REC001', 'As a matter of fact, if you have employees in your company then there is personal data processing. Any person (client, employee, collaborator, or complete stranger) who believes their data can be processed by your company can actually make a request to exercise their GDPR rights. Therefore it is possible you would receive such a request. Your answer should abide by certain requirements as per GDPR (particularly, to reply within one month).', 'fr', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009REC002', 'The replies to data subjects should be performed by the DPO, if there is one. If the DPO does not exist, an equivalent data protection responsible should reply to the request, within the expected timeframe. The legal department does not necessarily need to per-form this task, unless the data protection responsible/DPO is part of this department. ', 'fr', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009REC003', 'While the DPO should be in contact with the person who asks for an exercise of his or her rights, this task should be performed within a month (maximum extended with another 2 months, so up to 3 months in total). As the DPO is not expected to solve the task alone but to delegate it to the business, it is likely that one or more departments would need to collaborate, for the company to be able to reply to the request.', 'fr', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009REC004', 'Replying to a data subject request and supplying the answer should, from a practical perspective, be precluded by a verification of the authenticity of the relation between the data subject and the company. This is to avoid a data breach, e.g. a situation where the person is either unknown the organisation, or is impersonating someone else. An identity verification would be critical to perform at this stage.', 'fr', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009REC005', 'As per GDPR’s Art. 15, the replies to the requests of exercise of rights (esp. the right to access personal data) are not to be paid for. However, in some cases it is possible to ask the data subject for a fee (that can be justified by reasons) in case the person asks for extra copies, they make too many requests of the same type, or the answer requires a disproportionate effort to produce. ', 'fr', 'R');
 
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008REC001', 'Need recommendation for question 7', 'de', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010REC001', 'As mentioned by Art. 37 of GDPR, the DPO is mandatory in a few cases (for a public sec-tor entity, or if the core activities of the organisation consist in large scale processing of special categories of data, or if core activities require large scale, regular and systematic monitoring of individuals (for example, online behaviour tracking). Otherwise, when in doubt, better to have a DPO than not to have one. The DPO needs to be declared to the data protection authority (CNPD for Luxembourg). The role has to be supported by ap-propriate resources, and the person in this role needs to fulfil some conditions (competencies, independence, direct line of reporting to the management).', 'fr', 'R');
 
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009REC001', 'You should	implement an internal data breach response policy. To avoid data breaches, develop, implement and communicate an information security policy where periodic checks for compliance with this policy are done.
-You should also deliver regular staff training on all areas within the information security policy.
-If personal data is accessible by one or more third parties, Non- disclosure Agreements (NDAs) should be signed with them.
-', 'de', 'R');
 
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011REC001', 'A Data Protection Impact Assessment (DPIA ) shall be carried out to identify whether any of your processing operations is likely to result in a high risk to the rights and freedoms of natural persons, in particular when your activities consist of profiling individuals or you process special categories of data on a large scale.
-Implement an internal DPIA process and train your staff on how to conduct the assessment.
-Review all your existing risk and project management processes and ensure there is consistency with the DPIA process in place.
-', 'de', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011REC001', 'It is highly unlikely that you have no personal data. If your company has employees or cli-ents or both, it certainly processes personal data. Therefore, you are expected to look into the risks related to processing this data. Risk analysis is the main take-away from GDPR, in understanding the risks to personal data and how to improve protection with regards to those risks. Your company should consider performing a high-level analysis of what general risks there are with regards to protecting personal data, and also more in-depth risks regarding the impact of certain activities (also known as Data Protection Impact Analyses).', 'fr', 'R');
+/*INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011REC002', 'Yet, you do have some personal data. Risk analysis is the main take-away from GDPR, in understanding the risks to personal data and how to improve protection with regards to those risks. Your company should consider performing a high-level analysis of what gen-eral risks there are with regards to protecting personal data, and also more in-depth risks regarding the impact of certain activities (also known as Data Protection Impact Anal-yses), as you noted that you process data that can be considered sensitive. Also, ', 'fr', 'R'); */
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011REC002', 'Yet, you do have some personal data. Risk analysis is the main take-away from GDPR: whenever you process personal data, your responsibility is to understand the risks to individuals and how to improve protection with regards to those risks. Your company should consider performing a high-level analysis of what general risks there are with regards to protecting personal data. Whether now or in the future, your company should perform more in-depth risks regarding the impact of certain activities (also known as Data Protection Impact Analyses). Also, consider what the data protection authority in your country has issued as blacklist of processing operations (i.e., what personal data processing is likely to require DPIAs). If your company acts in multiple countries, ensure that you look at the recommendations of all data protection authorities in all countries you act in. ', 'fr', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011REC003', 'If you have performed DPIAs, you are expected to 1) follow-up on the observations from the DPIA analyses by setting up the measures for mitigating the risks on data subjects, and 2) review the analysis next year and make changes if needed. Also, DPIAs are not the only risk analyses required by GDPR; your company is expected to have an overall view over how it protects the personal data it processes, so you could consider having a higher-level risk analysis as such.', 'fr', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011REC004', 'Even if the CNPD has given its green light in the past for an impact analysis, it does not mean that the situation is the same now. They would expect that any changes in the pro-cessing from then to now, are accounted to in the (renewed) analysis. Also, do not forget that the CNPD published a black list of processing activities, that are likely to require an impact assessment. ', 'fr', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011REC005', 'Risk is important in GDPR, both from the higher level but also from the level of the individual processing activities. If you already have a higher-level risk analysis, ensure it looks at data protection concerns (and not just, for example, cybersecurity), and also ensure that you performed impact assessments (DPIAs) where needed.', 'fr', 'R');
 
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012REC001', 'Appoint a DPO if required, or designate internally a person responsible for the data protection compliance and support this individual through appropriate resources and training.
-Ensure that you have appropriate reporting mechanisms in place between the individual responsible for data protection compliance and senior management.
-Register the details of your DPO with the national Data Protection Authority.
-', 'de', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012REC001', 'As per GDPR’s Art. 24 and 26, you are expected to know if your role is that of a data con-troller or data processor, and protect personal data as such. It is expected that the re-sponsibilities of the other entities that provide you with personal data, or that you provide with personal data, are clear and in line with GDPR requirements.  Therefore you should review and update all your contracts with data processors if you are the data controller (because it is your responsibility as a controller). For the other contracts, you should review them to have the knowledge of your responsibilities (e.g., that you protect personal data and cooperate with the data controller wherever required). ', 'fr', 'R');
 
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013REC001', 'Ensure that any data you transfer outside the EU complies with the conditions for transfer set out in Chapter V GDPR.
-If you want to justify the international data transfer under the conditions of article 45 GDPR, ensure that the country of destination is listed among those considered by the European Commission as ensuring adequate level of protection.
-Ensure that you have adequate safeguards and data security in place.
-Implement periodical audit measures regarding the international data transfer.
-', 'de', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013REC001', 'Privacy by default and by design refer to implementing privacy into a pro-ject/product/service from the earliest possible stage of design, before the processing op-erations are even implemented. By default, companies/organisations should ensure that personal data is processed with the highest privacy protection (for example only the data necessary should be processed, short storage period, limited accessibility) so that by default personal data isn’t made accessible to an indefinite number of persons (‘data protection by default’). In short, it is easier to put something in place before, than to fix leaks or breaches afterwards.', 'fr', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013REC002', 'Some procedural documents to mention data privacy by design and by default, are good to have. However, they must be simple enough to read and implement, so that they are understood and applied. Therefore it would make sense to have a standard but simple update that ensures that, when a project starts, there is a discussion about what kind of personal data would be processed and if something specific might have to be put in place to protect such data from loss or disclosure. ', 'fr', 'R');
 
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q014REC001', 'Fines of up to €10 million or 2% of annual global turnover can be issued for infringements of articles:
--	8 GDPR (conditions for children’s consent);
--	11 GDPR (processing that doesn’t require identification);
--	25 – 39 GPDR (general obligations of processors and controllers);
--	42 and 43 GDPR (certification and certification bodies).
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q014REC001', 'GDPR applies to personal data of Europeans, worldwide. There have been discussions on the importance of protecting personal data outside of the EEA, and the data protection board (EPDB) insisted on the importance to have legal mechanisms (but also technical) to ensure that data is used for the same purpose and in the same way when transferred overseas. Using cloud services located outside of Europe are a typical example. A num-ber of legal options are possible, and it is expected from the data controller to choose such mechanisms to ensure data protection towards data subjects, when data travels outside the borders of the EEA. ', 'fr', 'R');
 
-Fines of up to €20 million or 4% of annual global turnover can be issued for infringements of articles:
 
--	5 GDPR (data processing principles);
--	6 GDPR (lawfulness of processing);
--	7 GDPR (conditions for consent);
--	9 GDPR (processing of special categories of data);
--	12 – 22 GDPR (data subjects’ rights); and
--	44 – 49 (data transfers to third countries or international organisations).
-', 'de', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q015REC001', 'You should consider to take a closer look at the information security risks in your company, not just because of GDPR but for your own company’s continuity and operations point of view.', 'fr', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q015REC002', 'If you have already performed a risk analysis on information security domains, consider to update it because technology advances very fast, and so do risks and countermeasures. Your company is not expected to be perfect, but to be aware and continously improving', 'fr', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q015REC003', 'Any single analysis can have blind spots, especially if done by the persons. Consider to complement the analysis by an external/different view, including exercises of business incidents occurring, audits, or certifications. ', 'fr', 'R');
+
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q016REC001', 'Information security is a domain that evolves, and it is critical that employees are up to data with how to protect themselves. Repeating notions about good password management, new attacks, social engineering, are all good practices to train your employees periodically, not just once when hired. ', 'fr', 'R');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q017REC001', 'Consider to write some of the rules / guidelines / good practices, in order to ensure that your employees know where to look for references, and act in the same way when there is a problem. The management should approve these documents and they should be known by employees.', 'fr', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q017REC002', 'Consider to update the written practices / guidelines / procedures that your employees can access and use. The reason is that technology and information security evolves over time, just as the notion of “Secure passwords” and “good practices”. The management should approve these documents and they should be known by employees. ', 'fr', 'R');
+
+-- RECOMMENDATIONS IN EN
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001REC001', 'If your company has employees or clients or both, it certainly processes personal data. Therefore, it must be subject to GDPR.', ‘en’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001REC002', 'Your company seems to be processing a medium/large amount of personal data, therefore consider putting the people and resources in place to quantify the risks relative to GDPR. ', ‘en’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001REC003', 'Your company doesn’t seem to process data about a lot of data subjects - either employees or clients - but even if a DPO might not be mandatory, consider appointing at least a data privacy responsible and taking the first steps towards GDPR: understanding the data being processed, and the risks.', ‘en’, 'R');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002REC001', 'You should investigate if such personal data is being processed by your company. The reason is that this type of personal data is considered by GDPR to be more dangerous to process (from the point of view of the data subject) than other type of personal data. Therefore, it requires a higher level of protection.', ‘en’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002REC002', 'Pay attention to the regime of treating the data relative to criminal records. Even if it is not sensitive data, it should be treated in the same way as the sensitive data mentioned in the question.', ‘en’, 'R');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003REC001', 'The main idea of GDPR is to have a risk-based approach to personal data processing, so without knowledge about what personal data is there and how it is processed, it will be impossible to know what the risks are. Therefore, you should consider, in your business, to acquire some understanding both on the quantity and risks of personal data that your company processes. In this case, Article 30 of GDPR should be the starting point. ', ‘en’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003REC002', 'We suggest that you split the task in several sub-tasks: you can have different departments responsible of their own record of processing activities, relative to the data they process and the processes they own. In a second stage, the different records can be put together into a single one after a consistency review. In a third stage, the registry (or record) needs to be reviewed and maintained from one year to the next.', ‘en’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003REC003', 'It should not be the responsibility of the DPO only to inventory the data processing activities, because he/she should not be involved in most of those business activities anyway. It should be the business stakeholders to inventory data processing activities within all departments, and the role of the DPO or data privacy responsible, should be to challenge and have an overview of the inventory.', ‘en’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003REC004', 'It is good that your company started to inventory its data, yet it will be better to have it ready as soon as possible, to be prepared for any CNPD inspection or visit. The fuller the picture over the personal data processing that takes place within your company, the better the view over the risks incurred based on this picture, and hence the more accurate the action plans that follow.', ‘en’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003REC005', 'It is great that your company has a clear idea over the data processing it performs. Remember that the inventory should give an accurate and complete picture of the processing activities within your company, so it should be reviewed and maintained from one year to the next. The good news is that if it was done well once, it will be easy to update/change afterwards.', ‘en’, 'R');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004REC001', 'Especially if your company’s website processes personal data (e.g., it is possible to gather information about users even via Google Analytics, or users can log in for a custom-ised experience), it  is good practice to update the privacy notice on the website, to re-flect GDPR conditions (the existence of personal data processing by the company, the existence of the DPO or not, the possibility to exercise rights, etc). Normally, Art. 13 or 14 of GDPR should be followed in this case. ', ‘en’, 'R');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005REC001', 'Your company should consider informing all types of data subjects whose data it processes, of the existence of the processing, the conditions you put in place to protect their data, and their rights over their data. Your employees (interns or collaborators), clients and any other users should be informed, in this respect. You should consider following Art. 13 and 14 of GDPR when it comes to this information.', ‘en’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005REC002', 'Make sure all data subjects are covered (clients AND employees), and that your company follows the points mentioned by Art. 13 and 14 of GDPR.', ‘en’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005REC003', 'It makes sense to inform data subjects via different channels, and always with respect to the personal data in question. Stickers in areas with video surveillance as well as updated information on the intranet page, as well as general information related to the personal da-ta processed via your website. Above all, do not forget the terms and conditions for clients and contractors, and information to employees as part of their contract (or addendum).', ‘en’, 'R');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q006REC001', 'In order to be compliant with GDPR, all personal data processing needs to have a legal reason why that information is processed. Your company should instate a registry /record of personal data processing activities, and during this exercise, to identify the legal basis and document it. Consent, as a legal basis, should be the option that should be the least used (preferably to be avoided). Consider following Art.6 of GDPR, from this point of view.', ‘en’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q006REC002', 'In order to be compliant with GDPR, all personal data processing needs to have a legal reason why that information is processed (Art. 6 of GDPR). If your company has a purpose for that processing (i.e. a business reason), then a legal basis should be instated for that processing (e.g., contract execution, public/vital interest, legitimate interest, consent). If there is no business purpose, and no legal basis, then there should be no reason why that personal data should be processed. So, either you give up the processing, or you instate a legal basis for it. ', ‘en’, 'R');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007REC001', 'One of the principles of GDPR is to instate a duration of processing of personal data, because no processing can actually last forever. Therefore, your company should consider removing the personal data that is kept indefinitely if there is no reason for its processing, otherwise a duration of storage should be decided on, and enforced.', ‘en’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007REC002', 'In order to fill in the record of processing activities, as per Art. 30 of GDPR, a duration of storage must be decided upon and enforced on the personal data that is processed by the organisation. If you discover that the storage limit has not been decided upon, then the recommendation is to consider all the important types of personal data for which there are limits that arrive from regulatory frameworks (e.g., financial data, criminal record data, anti-money laundering related data, etc). For other types of personal data for which there is no regulation to explicitly fix its storage time, the company can decide for a dura-tion that makes sense, and take actions to put that limitation in practice for both paper and electronic support of such data', ‘en’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007REC003', 'While it is true that deciding on and enforcing data storage limitation is a considerable challenge for most organisations, what the GDPR and data protection authorities expect is enforcing this principle on all personal data types. Therefore, in your case, you should be able to explain (1) why for some personal data types you have this storage limitation in place, but not for other personal data types, and (2) how you plan to improve over time and hence extend storage limitation over all data types.', ‘en’, 'R');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008REC001', 'In terms of handling data breaches, GDPR is relatively strict, in that there should be a re-porting made towards the data protection authorities within 72h from the moment the company becomes aware of the incident. For CNPD, there is a form that should be filled in, at the time of this reporting, answering several questions about the incident and how it has been handled. Due to these requirements, the reaction to data breaches cannot be case by case. Consider having a procedure or documented process to handle such incidents, and be sure that responsibilities have been clearly identified and actions to be performed are clear to the staff who will be involved in this process. ', ‘en’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008REC002', 'In terms of handling data breaches, GDPR is relatively strict, in that there should be a re-porting made towards the data protection authorities within 72h from the moment the company becomes aware of the incident. For CNPD, there is a form that should be filled in, at the time of this reporting, answering several questions about the incident and how it has been handled. It is good that you have an incident management procedure, yet this should be amended to allow for situations where a data breach might have occurred (so, identifying the impact on personal data, linking with the appropriate staff, and ensuring the tasks are clear with regards to reaction to personal data breaches).', ‘en’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008REC003', 'Ensure that there is a procedure or documented process to describe the concrete steps of reaction to a data breach. Data subjects don’t always need to be informed but this is an action that would be a second order decision (the first one is to report to the data protection authority).', ‘en’, 'R');
+
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009REC001', 'As a matter of fact, if you have employees in your company then there is personal data processing. Any person (client, employee, collaborator, or complete stranger) who believes their data can be processed by your company can actually make a request to exercise their GDPR rights. Therefore it is possible you would receive such a request. Your answer should abide by certain requirements as per GDPR (particularly, to reply within one month).', ‘en’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009REC002', 'The replies to data subjects should be performed by the DPO, if there is one. If the DPO does not exist, an equivalent data protection responsible should reply to the request, within the expected timeframe. The legal department does not necessarily need to per-form this task, unless the data protection responsible/DPO is part of this department. ', ‘en’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009REC003', 'While the DPO should be in contact with the person who asks for an exercise of his or her rights, this task should be performed within a month (maximum extended with another 2 months, so up to 3 months in total). As the DPO is not expected to solve the task alone but to delegate it to the business, it is likely that one or more departments would need to collaborate, for the company to be able to reply to the request.', ‘en’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009REC004', 'Replying to a data subject request and supplying the answer should, from a practical perspective, be precluded by a verification of the authenticity of the relation between the data subject and the company. This is to avoid a data breach, e.g. a situation where the person is either unknown the organisation, or is impersonating someone else. An identity verification would be critical to perform at this stage.', ‘en’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009REC005', 'As per GDPR’s Art. 15, the replies to the requests of exercise of rights (esp. the right to access personal data) are not to be paid for. However, in some cases it is possible to ask the data subject for a fee (that can be justified by reasons) in case the person asks for extra copies, they make too many requests of the same type, or the answer requires a disproportionate effort to produce. ', ‘en’, 'R');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010REC001', 'As mentioned by Art. 37 of GDPR, the DPO is mandatory in a few cases (for a public sec-tor entity, or if the core activities of the organisation consist in large scale processing of special categories of data, or if core activities require large scale, regular and systematic monitoring of individuals (for example, online behaviour tracking). Otherwise, when in doubt, better to have a DPO than not to have one. The DPO needs to be declared to the data protection authority (CNPD for Luxembourg). The role has to be supported by ap-propriate resources, and the person in this role needs to fulfil some conditions (competencies, independence, direct line of reporting to the management).', ‘en’, 'R');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011REC001', 'It is highly unlikely that you have no personal data. If your company has employees or cli-ents or both, it certainly processes personal data. Therefore, you are expected to look into the risks related to processing this data. Risk analysis is the main take-away from GDPR, in understanding the risks to personal data and how to improve protection with regards to those risks. Your company should consider performing a high-level analysis of what general risks there are with regards to protecting personal data, and also more in-depth risks regarding the impact of certain activities (also known as Data Protection Impact Analyses).', ‘en’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011REC002', 'Yet, you do have some personal data. Risk analysis is the main take-away from GDPR, in understanding the risks to personal data and how to improve protection with regards to those risks. Your company should consider performing a high-level analysis of what gen-eral risks there are with regards to protecting personal data, and also more in-depth risks regarding the impact of certain activities (also known as Data Protection Impact Anal-yses), as you noted that you process data that can be considered sensitive. Also, con-sider what the data protection authority in your country has issued as blacklist of pro-cessing operations (i.e., what personal data processing is likely to require DPIAs). If your company acts in multiple countries, ensure that you look at the recommendations of all data protection authorities in all countries you act in.', ‘en’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011REC003', 'Yet, you do have some personal data. Risk analysis is the main take-away from GDPR, in understanding the risks to personal data and how to improve protection with regards to those risks. Your company should consider performing a high-level analysis of what gen-eral risks there are with regards to protecting personal data. Should it be the case in the future, your company should perform more in-depth risks regarding the impact of certain activities (also known as Data Protection Impact Analyses). ', ‘en’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011REC004', 'If you have performed DPIAs, you are expected to 1) follow-up on the observations from the DPIA analyses by setting up the measures for mitigating the risks on data subjects, and 2) review the analysis next year and make changes if needed. Also, DPIAs are not the only risk analyses required by GDPR; your company is expected to have an overall view over how it protects the personal data it processes, so you could consider having a higher-level risk analysis as such.', ‘en’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011REC005', 'Even if the CNPD has given its green light in the past for an impact analysis, it does not mean that the situation is the same now. They would expect that any changes in the pro-cessing from then to now, are accounted to in the (renewed) analysis. Also, do not forget that the CNPD published a black list of processing activities, that are likely to require an impact assessment. ', ‘en’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011REC006', 'Risk is important in GDPR, both from the higher level but also from the level of the individual processing activities. If you already have a higher-level risk analysis, ensure it looks at data protection concerns (and not just, for example, cybersecurity), and also ensure that you performed impact assessments (DPIAs) where needed.', ‘en’, 'R');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012REC001', 'As per GDPR’s Art. 24 and 26, you are expected to know if your role is that of a data con-troller or data processor, and protect personal data as such. It is expected that the re-sponsibilities of the other entities that provide you with personal data, or that you provide with personal data, are clear and in line with GDPR requirements.  Therefore you should review and update all your contracts with data processors if you are the data controller (because it is your responsibility as a controller). For the other contracts, you should review them to have the knowledge of your responsibilities (e.g., that you protect personal data and cooperate with the data controller wherever required). ', ‘en’, 'R');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013REC001', 'Privacy by default and by design refer to implementing privacy into a pro-ject/product/service from the earliest possible stage of design, before the processing op-erations are even implemented. By default, companies/organisations should ensure that personal data is processed with the highest privacy protection (for example only the data necessary should be processed, short storage period, limited accessibility) so that by default personal data isn’t made accessible to an indefinite number of persons (‘data protection by default’). In short, it is easier to put something in place before, than to fix leaks or breaches afterwards.', ‘en’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013REC002', 'Some procedural documents to mention data privacy by design and by default, are good to have. However, they must be simple enough to read and implement, so that they are understood and applied. Therefore it would make sense to have a standard but simple update that ensures that, when a project starts, there is a discussion about what kind of personal data would be processed and if something specific might have to be put in place to protect such data from loss or disclosure. ', ‘en’, 'R');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q014REC001', 'GDPR applies to personal data of Europeans, worldwide. There have been discussions on the importance of protecting personal data outside of the EEA, and the data protection board (EPDB) insisted on the importance to have legal mechanisms (but also technical) to ensure that data is used for the same purpose and in the same way when transferred overseas. Using cloud services located outside of Europe are a typical example. A num-ber of legal options are possible, and it is expected from the data controller to choose such mechanisms to ensure data protection towards data subjects, when data travels outside the borders of the EEA. ', ‘en’, 'R');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q015REC001', 'You should consider to take a closer look at the information security risks in your company, not just because of GDPR but for your own company’s continuity and operations point of view.', ‘en’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q015REC002', 'If you have already performed a risk analysis on information security domains, consider to update it because technology advances very fast, and so do risks and countermeasures. Your company is not expected to be perfect, but to be aware and continously improving', ‘en’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q015REC003', 'Any single analysis can have blind spots, especially if done by the persons. Consider to complement the analysis by an external/different view, including exercises of business incidents occurring, audits, or certifications. ', ‘en’, 'R');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q016REC001', 'Information security is a domain that evolves, and it is critical that employees are up to data with how to protect themselves. Repeating notions about good password management, new attacks, social engineering, are all good practices to train your employees periodically, not just once when hired. ', ‘en’, 'R');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q017REC001', 'Consider to write some of the rules / guidelines / good practices, in order to ensure that your employees know where to look for references, and act in the same way when there is a problem. The management should approve these documents and they should be known by employees.', ‘en’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q017REC002', 'Consider to update the written practices / guidelines / procedures that your employees can access and use. The reason is that technology and information security evolves over time, just as the notion of “Secure passwords” and “good practices”. The management should approve these documents and they should be known by employees. ', ‘en’, 'R');
+
+
+-- RECOMMENDATIONS IN DE
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001REC001', 'If your company has employees or clients or both, it certainly processes personal data. Therefore, it must be subject to GDPR.', ‘de’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001REC002', 'Your company seems to be processing a medium/large amount of personal data, therefore consider putting the people and resources in place to quantify the risks relative to GDPR. ', ‘de’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001REC003', 'Your company doesn’t seem to process data about a lot of data subjects - either employees or clients - but even if a DPO might not be mandatory, consider appointing at least a data privacy responsible and taking the first steps towards GDPR: understanding the data being processed, and the risks.', ‘de’, 'R');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002REC001', 'You should investigate if such personal data is being processed by your company. The reason is that this type of personal data is considered by GDPR to be more dangerous to process (from the point of view of the data subject) than other type of personal data. Therefore, it requires a higher level of protection.', ‘de’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002REC002', 'Pay attention to the regime of treating the data relative to criminal records. Even if it is not sensitive data, it should be treated in the same way as the sensitive data mentioned in the question.', ‘de’, 'R');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003REC001', 'The main idea of GDPR is to have a risk-based approach to personal data processing, so without knowledge about what personal data is there and how it is processed, it will be impossible to know what the risks are. Therefore, you should consider, in your business, to acquire some understanding both on the quantity and risks of personal data that your company processes. In this case, Article 30 of GDPR should be the starting point. ', ‘de’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003REC002', 'We suggest that you split the task in several sub-tasks: you can have different departments responsible of their own record of processing activities, relative to the data they process and the processes they own. In a second stage, the different records can be put together into a single one after a consistency review. In a third stage, the registry (or record) needs to be reviewed and maintained from one year to the next.', ‘de’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003REC003', 'It should not be the responsibility of the DPO only to inventory the data processing activities, because he/she should not be involved in most of those business activities anyway. It should be the business stakeholders to inventory data processing activities within all departments, and the role of the DPO or data privacy responsible, should be to challenge and have an overview of the inventory.', ‘de’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003REC004', 'It is good that your company started to inventory its data, yet it will be better to have it ready as soon as possible, to be prepared for any CNPD inspection or visit. The fuller the picture over the personal data processing that takes place within your company, the better the view over the risks incurred based on this picture, and hence the more accurate the action plans that follow.', ‘de’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003REC005', 'It is great that your company has a clear idea over the data processing it performs. Remember that the inventory should give an accurate and complete picture of the processing activities within your company, so it should be reviewed and maintained from one year to the next. The good news is that if it was done well once, it will be easy to update/change afterwards.', ‘de’, 'R');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004REC001', 'Especially if your company’s website processes personal data (e.g., it is possible to gather information about users even via Google Analytics, or users can log in for a custom-ised experience), it  is good practice to update the privacy notice on the website, to re-flect GDPR conditions (the existence of personal data processing by the company, the existence of the DPO or not, the possibility to exercise rights, etc). Normally, Art. 13 or 14 of GDPR should be followed in this case. ', ‘de’, 'R');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005REC001', 'Your company should consider informing all types of data subjects whose data it processes, of the existence of the processing, the conditions you put in place to protect their data, and their rights over their data. Your employees (interns or collaborators), clients and any other users should be informed, in this respect. You should consider following Art. 13 and 14 of GDPR when it comes to this information.', ‘de’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005REC002', 'Make sure all data subjects are covered (clients AND employees), and that your company follows the points mentioned by Art. 13 and 14 of GDPR.', ‘de’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005REC003', 'It makes sense to inform data subjects via different channels, and always with respect to the personal data in question. Stickers in areas with video surveillance as well as updated information on the intranet page, as well as general information related to the personal da-ta processed via your website. Above all, do not forget the terms and conditions for clients and contractors, and information to employees as part of their contract (or addendum).', ‘de’, 'R');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q006REC001', 'In order to be compliant with GDPR, all personal data processing needs to have a legal reason why that information is processed. Your company should instate a registry /record of personal data processing activities, and during this exercise, to identify the legal basis and document it. Consent, as a legal basis, should be the option that should be the least used (preferably to be avoided). Consider following Art.6 of GDPR, from this point of view.', ‘de’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q006REC002', 'In order to be compliant with GDPR, all personal data processing needs to have a legal reason why that information is processed (Art. 6 of GDPR). If your company has a purpose for that processing (i.e. a business reason), then a legal basis should be instated for that processing (e.g., contract execution, public/vital interest, legitimate interest, consent). If there is no business purpose, and no legal basis, then there should be no reason why that personal data should be processed. So, either you give up the processing, or you instate a legal basis for it. ', ‘de’, 'R');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007REC001', 'One of the principles of GDPR is to instate a duration of processing of personal data, because no processing can actually last forever. Therefore, your company should consider removing the personal data that is kept indefinitely if there is no reason for its processing, otherwise a duration of storage should be decided on, and enforced.', ‘de’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007REC002', 'In order to fill in the record of processing activities, as per Art. 30 of GDPR, a duration of storage must be decided upon and enforced on the personal data that is processed by the organisation. If you discover that the storage limit has not been decided upon, then the recommendation is to consider all the important types of personal data for which there are limits that arrive from regulatory frameworks (e.g., financial data, criminal record data, anti-money laundering related data, etc). For other types of personal data for which there is no regulation to explicitly fix its storage time, the company can decide for a dura-tion that makes sense, and take actions to put that limitation in practice for both paper and electronic support of such data', ‘de’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007REC003', 'While it is true that deciding on and enforcing data storage limitation is a considerable challenge for most organisations, what the GDPR and data protection authorities expect is enforcing this principle on all personal data types. Therefore, in your case, you should be able to explain (1) why for some personal data types you have this storage limitation in place, but not for other personal data types, and (2) how you plan to improve over time and hence extend storage limitation over all data types.', ‘de’, 'R');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008REC001', 'In terms of handling data breaches, GDPR is relatively strict, in that there should be a re-porting made towards the data protection authorities within 72h from the moment the company becomes aware of the incident. For CNPD, there is a form that should be filled in, at the time of this reporting, answering several questions about the incident and how it has been handled. Due to these requirements, the reaction to data breaches cannot be case by case. Consider having a procedure or documented process to handle such incidents, and be sure that responsibilities have been clearly identified and actions to be performed are clear to the staff who will be involved in this process. ', ‘de’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008REC002', 'In terms of handling data breaches, GDPR is relatively strict, in that there should be a re-porting made towards the data protection authorities within 72h from the moment the company becomes aware of the incident. For CNPD, there is a form that should be filled in, at the time of this reporting, answering several questions about the incident and how it has been handled. It is good that you have an incident management procedure, yet this should be amended to allow for situations where a data breach might have occurred (so, identifying the impact on personal data, linking with the appropriate staff, and ensuring the tasks are clear with regards to reaction to personal data breaches).', ‘de’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008REC003', 'Ensure that there is a procedure or documented process to describe the concrete steps of reaction to a data breach. Data subjects don’t always need to be informed but this is an action that would be a second order decision (the first one is to report to the data protection authority).', ‘de’, 'R');
+
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009REC001', 'As a matter of fact, if you have employees in your company then there is personal data processing. Any person (client, employee, collaborator, or complete stranger) who believes their data can be processed by your company can actually make a request to exercise their GDPR rights. Therefore it is possible you would receive such a request. Your answer should abide by certain requirements as per GDPR (particularly, to reply within one month).', ‘de’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009REC002', 'The replies to data subjects should be performed by the DPO, if there is one. If the DPO does not exist, an equivalent data protection responsible should reply to the request, within the expected timeframe. The legal department does not necessarily need to per-form this task, unless the data protection responsible/DPO is part of this department. ', ‘de’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009REC003', 'While the DPO should be in contact with the person who asks for an exercise of his or her rights, this task should be performed within a month (maximum extended with another 2 months, so up to 3 months in total). As the DPO is not expected to solve the task alone but to delegate it to the business, it is likely that one or more departments would need to collaborate, for the company to be able to reply to the request.', ‘de’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009REC004', 'Replying to a data subject request and supplying the answer should, from a practical perspective, be precluded by a verification of the authenticity of the relation between the data subject and the company. This is to avoid a data breach, e.g. a situation where the person is either unknown the organisation, or is impersonating someone else. An identity verification would be critical to perform at this stage.', ‘de’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009REC005', 'As per GDPR’s Art. 15, the replies to the requests of exercise of rights (esp. the right to access personal data) are not to be paid for. However, in some cases it is possible to ask the data subject for a fee (that can be justified by reasons) in case the person asks for extra copies, they make too many requests of the same type, or the answer requires a disproportionate effort to produce. ', ‘de’, 'R');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q010REC001', 'As mentioned by Art. 37 of GDPR, the DPO is mandatory in a few cases (for a public sec-tor entity, or if the core activities of the organisation consist in large scale processing of special categories of data, or if core activities require large scale, regular and systematic monitoring of individuals (for example, online behaviour tracking). Otherwise, when in doubt, better to have a DPO than not to have one. The DPO needs to be declared to the data protection authority (CNPD for Luxembourg). The role has to be supported by ap-propriate resources, and the person in this role needs to fulfil some conditions (competencies, independence, direct line of reporting to the management).', ‘de’, 'R');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011REC001', 'It is highly unlikely that you have no personal data. If your company has employees or cli-ents or both, it certainly processes personal data. Therefore, you are expected to look into the risks related to processing this data. Risk analysis is the main take-away from GDPR, in understanding the risks to personal data and how to improve protection with regards to those risks. Your company should consider performing a high-level analysis of what general risks there are with regards to protecting personal data, and also more in-depth risks regarding the impact of certain activities (also known as Data Protection Impact Analyses).', ‘de’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011REC002', 'Yet, you do have some personal data. Risk analysis is the main take-away from GDPR, in understanding the risks to personal data and how to improve protection with regards to those risks. Your company should consider performing a high-level analysis of what gen-eral risks there are with regards to protecting personal data, and also more in-depth risks regarding the impact of certain activities (also known as Data Protection Impact Anal-yses), as you noted that you process data that can be considered sensitive. Also, con-sider what the data protection authority in your country has issued as blacklist of pro-cessing operations (i.e., what personal data processing is likely to require DPIAs). If your company acts in multiple countries, ensure that you look at the recommendations of all data protection authorities in all countries you act in.', ‘de’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011REC003', 'Yet, you do have some personal data. Risk analysis is the main take-away from GDPR, in understanding the risks to personal data and how to improve protection with regards to those risks. Your company should consider performing a high-level analysis of what gen-eral risks there are with regards to protecting personal data. Should it be the case in the future, your company should perform more in-depth risks regarding the impact of certain activities (also known as Data Protection Impact Analyses). ', ‘de’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011REC004', 'If you have performed DPIAs, you are expected to 1) follow-up on the observations from the DPIA analyses by setting up the measures for mitigating the risks on data subjects, and 2) review the analysis next year and make changes if needed. Also, DPIAs are not the only risk analyses required by GDPR; your company is expected to have an overall view over how it protects the personal data it processes, so you could consider having a higher-level risk analysis as such.', ‘de’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011REC005', 'Even if the CNPD has given its green light in the past for an impact analysis, it does not mean that the situation is the same now. They would expect that any changes in the pro-cessing from then to now, are accounted to in the (renewed) analysis. Also, do not forget that the CNPD published a black list of processing activities, that are likely to require an impact assessment. ', ‘de’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011REC006', 'Risk is important in GDPR, both from the higher level but also from the level of the individual processing activities. If you already have a higher-level risk analysis, ensure it looks at data protection concerns (and not just, for example, cybersecurity), and also ensure that you performed impact assessments (DPIAs) where needed.', ‘de’, 'R');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012REC001', 'As per GDPR’s Art. 24 and 26, you are expected to know if your role is that of a data con-troller or data processor, and protect personal data as such. It is expected that the re-sponsibilities of the other entities that provide you with personal data, or that you provide with personal data, are clear and in line with GDPR requirements.  Therefore you should review and update all your contracts with data processors if you are the data controller (because it is your responsibility as a controller). For the other contracts, you should review them to have the knowledge of your responsibilities (e.g., that you protect personal data and cooperate with the data controller wherever required). ', ‘de’, 'R');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013REC001', 'Privacy by default and by design refer to implementing privacy into a pro-ject/product/service from the earliest possible stage of design, before the processing op-erations are even implemented. By default, companies/organisations should ensure that personal data is processed with the highest privacy protection (for example only the data necessary should be processed, short storage period, limited accessibility) so that by default personal data isn’t made accessible to an indefinite number of persons (‘data protection by default’). In short, it is easier to put something in place before, than to fix leaks or breaches afterwards.', ‘de’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q013REC002', 'Some procedural documents to mention data privacy by design and by default, are good to have. However, they must be simple enough to read and implement, so that they are understood and applied. Therefore it would make sense to have a standard but simple update that ensures that, when a project starts, there is a discussion about what kind of personal data would be processed and if something specific might have to be put in place to protect such data from loss or disclosure. ', ‘de’, 'R');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q014REC001', 'GDPR applies to personal data of Europeans, worldwide. There have been discussions on the importance of protecting personal data outside of the EEA, and the data protection board (EPDB) insisted on the importance to have legal mechanisms (but also technical) to ensure that data is used for the same purpose and in the same way when transferred overseas. Using cloud services located outside of Europe are a typical example. A num-ber of legal options are possible, and it is expected from the data controller to choose such mechanisms to ensure data protection towards data subjects, when data travels outside the borders of the EEA. ', ‘de’, 'R');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q015REC001', 'You should consider to take a closer look at the information security risks in your company, not just because of GDPR but for your own company’s continuity and operations point of view.', ‘de’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q015REC002', 'If you have already performed a risk analysis on information security domains, consider to update it because technology advances very fast, and so do risks and countermeasures. Your company is not expected to be perfect, but to be aware and continously improving', ‘de’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q015REC003', 'Any single analysis can have blind spots, especially if done by the persons. Consider to complement the analysis by an external/different view, including exercises of business incidents occurring, audits, or certifications. ', ‘de’, 'R');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q016REC001', 'Information security is a domain that evolves, and it is critical that employees are up to data with how to protect themselves. Repeating notions about good password management, new attacks, social engineering, are all good practices to train your employees periodically, not just once when hired. ', ‘de’, 'R');
+
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q017REC001', 'Consider to write some of the rules / guidelines / good practices, in order to ensure that your employees know where to look for references, and act in the same way when there is a problem. The management should approve these documents and they should be known by employees.', ‘de’, 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q017REC002', 'Consider to update the written practices / guidelines / procedures that your employees can access and use. The reason is that technology and information security evolves over time, just as the notion of “Secure passwords” and “good practices”. The management should approve these documents and they should be known by employees. ', ‘de’, 'R');
+
+
+
