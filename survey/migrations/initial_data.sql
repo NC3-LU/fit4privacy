@@ -288,9 +288,9 @@ INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q0
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A001', 'We have given no information whatsoever.', 'fr', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A002', 'On the website we added a small GDPR note, but not more.', 'fr', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A003', 'We updated terms and conditions for clients and contractors.', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A003', 'We updated contracts with our employees / we had them sign an addendum on GDPR.', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A003', 'We added stickers in our areas with video surveillance.', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A003', 'We started an intranet page for employees on this topic.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A004', 'We updated contracts with our employees / we had them sign an addendum on GDPR.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A005', 'We added stickers in our areas with video surveillance.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A006', 'We started an intranet page for employees on this topic.', 'fr', 'A');
 
 
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q006', 'To what extent do you know if your company is processing personal data with a legal basis (one of: contract execution, legal requirement, public/vital interest, legitimate interest, consent)?', 'fr', 'Q');
@@ -403,9 +403,9 @@ INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q0
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A001', 'We have given no information whatsoever.', 'en', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A002', 'On the website we added a small GDPR note, but not more.', 'en', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A003', 'We updated terms and conditions for clients and contractors.', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A003', 'We updated contracts with our employees / we had them sign an addendum on GDPR.', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A003', 'We added stickers in our areas with video surveillance.', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A003', 'We started an intranet page for employees on this topic.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A004', 'We updated contracts with our employees / we had them sign an addendum on GDPR.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A005', 'We added stickers in our areas with video surveillance.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A006', 'We started an intranet page for employees on this topic.', 'en', 'A');
 
 
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q006', 'To what extent do you know if your company is processing personal data with a legal basis (one of: contract execution, legal requirement, public/vital interest, legitimate interest, consent)?', 'en', 'Q');
@@ -517,9 +517,9 @@ INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q0
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A001', 'We have given no information whatsoever.', 'de', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A002', 'On the website we added a small GDPR note, but not more.', 'de', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A003', 'We updated terms and conditions for clients and contractors.', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A003', 'We updated contracts with our employees / we had them sign an addendum on GDPR.', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A003', 'We added stickers in our areas with video surveillance.', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A003', 'We started an intranet page for employees on this topic.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A004', 'We updated contracts with our employees / we had them sign an addendum on GDPR.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A005', 'We added stickers in our areas with video surveillance.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005A006', 'We started an intranet page for employees on this topic.', 'de', 'A');
 
 
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q006', 'To what extent do you know if your company is processing personal data with a legal basis (one of: contract execution, legal requirement, public/vital interest, legitimate interest, consent)?', 'de', 'Q');
