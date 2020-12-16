@@ -1,11 +1,10 @@
-FROM python:3.8-alpine
+FROM python:3.9-alpine
 
 RUN apk update && \
   apk add \
   build-base \
   curl \
   git \
-  python-dev \
   gettext \
   freetype-dev \
   libffi-dev \
