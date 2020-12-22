@@ -14,39 +14,40 @@ INSERT INTO "survey_surveysection" ("id", "sectionTitleKey") VALUES (2, 'SECTION
 INSERT INTO "survey_surveysection" ("id", "sectionTitleKey") VALUES (3, 'SECTION003PRIN');
 INSERT INTO "survey_surveysection" ("id", "sectionTitleKey") VALUES (4, 'SECTION004BRR');
 INSERT INTO "survey_surveysection" ("id", "sectionTitleKey") VALUES (5, 'SECTION005RISK');
+INSERT INTO "survey_surveysection" ("id", "sectionTitleKey") VALUES (6, 'SECTION006SEC');
 
 /* survey_surveyquestion */
-INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (1, 'Q001', 'S', 1, 1, 1, 60);
-INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (2, 'Q002', 'S', 2, 1, 1, 60);
+INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (1, 'Q001', 'M', 1, 1, 1, 0);
+INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (2, 'Q002', 'S', 2, 1, 1, 0);
 INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (3, 'Q003', 'S', 3, 2, 1, 60);
-INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (4, 'Q004', 'S', 4, 3, 2, 60);
-INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (5, 'Q005', 'M', 5, 3, 2, 60);
-INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (6, 'Q006', 'S', 6, 4, 3, 60);
-INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (7, 'Q007', 'S', 7, 4, 3, 60);
-INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (8, 'Q008', 'S', 8, 5, 4, 60);
-INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (9, 'Q009', 'M', 9, 6, 4, 60);
-INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (10, 'Q010', 'S', 10, 6, 4, 60);
-INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (11, 'Q011', 'M', 11, 7, 5, 60);
-INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (12, 'Q012', 'S', 12, 7, 5, 60);
-INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (13, 'Q013', 'S', 13, 7, 5, 60);
-INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (14, 'Q014', 'S', 14, 7, 5, 60);
-INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (15, 'Q015', 'S', 15, 8, 5, 60);
-INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (16, 'Q016', 'S', 16, 8, 5, 60);
-INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (17, 'Q017', 'S', 17, 8, 5, 60);
+INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (4, 'Q004', 'S', 4, 3, 2, 30);
+INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (5, 'Q005', 'M', 5, 3, 2, 30);
+INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (6, 'Q006', 'S', 6, 4, 3, 30);
+INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (7, 'Q007', 'S', 7, 4, 3, 30);
+INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (8, 'Q008', 'M', 8, 5, 4, 20);
+INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (9, 'Q009', 'M', 9, 6, 4, 20);
+INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (10, 'Q010', 'S', 10, 6, 4, 20);
+INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (11, 'Q011', 'M', 11, 7, 5, 15);
+INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (12, 'Q012', 'S', 12, 7, 5, 15);
+INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (13, 'Q013', 'S', 13, 7, 5, 15);
+INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (14, 'Q014', 'S', 14, 7, 5, 15);
+INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (15, 'Q015', 'S', 15, 8, 6, 20);
+INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (16, 'Q016', 'S', 16, 8, 6, 20);
+INSERT INTO "survey_surveyquestion" ("id", "titleKey", "qtype", "qindex", "service_category_id", "section_id", "maxPoints") VALUES (17, 'Q017', 'S', 17, 8, 6, 20);
 
 /* survey_surveyquestionanswer */
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (1, 'Q001A001', 10, 1, FALSE, 60);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (2, 'Q001A002', 20, 1, FALSE, 60);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (3, 'Q001A003', 30, 1, FALSE, 60);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (4, 'Q001A004', 40, 1, FALSE, 60);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (5, 'Q001A005', 50, 1, FALSE, 60);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (6, 'Q001A006', 60, 1, FALSE, 60);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (7, 'Q001A007', 70, 1, FALSE, 60);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (1, 'Q001A001', 10, 1, TRUE, 0);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (2, 'Q001A002', 20, 1, FALSE, 0);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (3, 'Q001A003', 30, 1, FALSE, 0);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (4, 'Q001A004', 40, 1, FALSE, 0);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (5, 'Q001A005', 50, 1, FALSE, 0);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (6, 'Q001A006', 60, 1, FALSE, 0);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (7, 'Q001A007', 70, 1, FALSE, 0);
 
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (8, 'Q002A001', 10, 2, FALSE, 60);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (9, 'Q002A002', 20, 2, FALSE, 60);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (10, 'Q002A003', 30, 2, FALSE, 60);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (11, 'Q002A004', 40, 2, FALSE, 60);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (8, 'Q002A001', 10, 2, FALSE, 0);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (9, 'Q002A002', 20, 2, FALSE, 0);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (10, 'Q002A003', 30, 2, FALSE, 0);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (11, 'Q002A004', 40, 2, FALSE, 0);
 
 INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (12, 'Q003A001', 10, 3, FALSE, 0);
 INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (13, 'Q003A002', 20, 3, FALSE, 10);
@@ -55,78 +56,78 @@ INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "questio
 INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (16, 'Q003A005', 50, 3, FALSE, 60);
 
 
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (17, 'Q004A001', 10, 4, FALSE, 30);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (17, 'Q004A001', 10, 4, FALSE, 10);
 INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (18, 'Q004A002', 20, 4, FALSE, 0);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (19, 'Q004A003', 30, 4, FALSE, 60);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (19, 'Q004A003', 30, 4, FALSE, 10);
 
 INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (20, 'Q005A001', 10, 5, TRUE, 0);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (21, 'Q005A002', 20, 5, TRUE, 10);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (22, 'Q005A003', 30, 5, FALSE, 20);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (23, 'Q005A004', 40, 5, FALSE, 20);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (24, 'Q005A005', 50, 5, FALSE, 20);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (25, 'Q005A006', 60, 5, FALSE, 40);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (21, 'Q005A002', 20, 5, TRUE, 0);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (22, 'Q005A003', 30, 5, FALSE, 10);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (23, 'Q005A004', 40, 5, FALSE, 10);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (24, 'Q005A005', 50, 5, FALSE, 5);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (25, 'Q005A006', 60, 5, FALSE, 5);
 
 INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (26, 'Q006A001', 10, 6, FALSE, 0);
 INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (27, 'Q006A002', 20, 6, FALSE, 10);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (28, 'Q006A003', 30, 6, FALSE, 60);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (28, 'Q006A003', 30, 6, FALSE, 30);
 
 INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (29, 'Q007A001', 10, 7, FALSE, 0);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (30, 'Q007A002', 20, 7, FALSE, 0);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (31, 'Q007A003', 30, 7, FALSE, 30);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (32, 'Q007A004', 40, 7, FALSE, 60);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (30, 'Q007A002', 20, 7, FALSE, 10);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (31, 'Q007A003', 30, 7, FALSE, 20);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (32, 'Q007A004', 40, 7, FALSE, 30);
 
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (33, 'Q008A001', 10, 8, FALSE, 0);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (34, 'Q008A002', 20, 8, FALSE, 0);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (35, 'Q008A003', 30, 8, FALSE, 20);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (36, 'Q008A004', 40, 8, FALSE, 60);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (37, 'Q008A005', 50, 8, FALSE, 20);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (33, 'Q008A001', 10, 8, TRUE, 0);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (34, 'Q008A002', 20, 8, TRUE, 2);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (35, 'Q008A003', 30, 8, FALSE, 10);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (36, 'Q008A004', 40, 8, FALSE, 10);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (37, 'Q008A005', 50, 8, TRUE, 3);
 
 INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (38, 'Q009A001', 10, 9, TRUE, 0);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (39, 'Q009A002', 20, 9, FALSE, 10);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (40, 'Q009A003', 30, 9, FALSE, 30);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (41, 'Q009A004', 40, 9, FALSE, 50);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (42, 'Q009A005', 50, 9, FALSE, 30);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (43, 'Q009A006', 60, 9, FALSE, 30);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (44, 'Q009A007', 70, 9, FALSE, 10);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (39, 'Q009A002', 20, 9, FALSE, 3);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (40, 'Q009A003', 30, 9, FALSE, 10);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (41, 'Q009A004', 40, 9, FALSE, 7);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (42, 'Q009A005', 50, 9, FALSE, 3);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (43, 'Q009A006', 60, 9, FALSE, 2);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (44, 'Q009A007', 70, 9, FALSE, 0);
 
 INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (45, 'Q010A001', 10, 10, FALSE, 0);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (46, 'Q010A002', 20, 10, FALSE, 10);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (47, 'Q010A003', 30, 10, FALSE, 60);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (48, 'Q010A004', 40, 10, FALSE, 50);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (46, 'Q010A002', 20, 10, FALSE, 0);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (47, 'Q010A003', 30, 10, FALSE, 10);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (48, 'Q010A004', 40, 10, FALSE, 10);
 
 INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (49, 'Q011A001', 10, 11, TRUE, 0);
 INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (50, 'Q011A002', 20, 11, TRUE, 0);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (51, 'Q011A003', 30, 11, FALSE, 30);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (52, 'Q011A004', 40, 11, FALSE, 40);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (53, 'Q011A005', 50, 11, FALSE, 30);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (51, 'Q011A003', 30, 11, FALSE, 10);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (52, 'Q011A004', 40, 11, FALSE, 7);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (53, 'Q011A005', 50, 11, FALSE, 5);
 
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (54, 'Q012A001', 10, 12, FALSE, 60);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (54, 'Q012A001', 10, 12, FALSE, 15);
 INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (55, 'Q012A002', 20, 12, FALSE, 0);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (56, 'Q012A003', 30, 12, FALSE, 30);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (57, 'Q012A004', 40, 12, FALSE, 60);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (56, 'Q012A003', 30, 12, FALSE, 7);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (57, 'Q012A004', 40, 12, FALSE, 15);
 
 INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (58, 'Q013A001', 10, 13, FALSE, 0);
 INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (59, 'Q013A002', 20, 13, FALSE, 0);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (60, 'Q013A003', 30, 13, FALSE, 20);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (61, 'Q013A004', 40, 13, FALSE, 60);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (60, 'Q013A003', 30, 13, FALSE, 10);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (61, 'Q013A004', 40, 13, FALSE, 15);
 
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (62, 'Q014A001', 10, 14, FALSE, 60);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (63, 'Q014A002', 20, 14, FALSE, 60);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (64, 'Q014A003', 30, 14, FALSE, 60);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (62, 'Q014A001', 10, 14, FALSE, 15);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (63, 'Q014A002', 20, 14, FALSE, 15);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (64, 'Q014A003', 30, 14, FALSE, 15);
 INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (65, 'Q014A004', 40, 14, FALSE, 0);
 
 INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (66, 'Q015A001', 10, 15, FALSE, 0);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (67, 'Q015A002', 20, 15, FALSE, 20);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (68, 'Q015A003', 30, 15, FALSE, 40);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (69, 'Q015A004', 40, 15, FALSE, 60);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (67, 'Q015A002', 20, 15, FALSE, 5);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (68, 'Q015A003', 30, 15, FALSE, 10);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (69, 'Q015A004', 40, 15, FALSE, 20);
 
 INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (70, 'Q016A001', 10, 16, FALSE, 0);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (71, 'Q016A002', 20, 16, FALSE, 0);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (72, 'Q016A003', 30, 16, FALSE, 60);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (71, 'Q016A002', 20, 16, FALSE, 5);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (72, 'Q016A003', 30, 16, FALSE, 20);
 
 INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (73, 'Q017A001', 10, 17, FALSE, 0);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (74, 'Q017A002', 20, 17, FALSE, 30);
-INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (75, 'Q017A003', 30, 17, FALSE, 60);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (74, 'Q017A002', 20, 17, FALSE, 10);
+INSERT INTO "survey_surveyquestionanswer" ("id", "answerKey", "aindex", "question_id", "uniqueAnswer", "score") VALUES (75, 'Q017A003', 30, 17, FALSE, 20);
 
 /* survey_recommendations */
 INSERT INTO "survey_recommendations" ("textKey", "min_e_count", "max_e_count", "sector", "answerChosen", "forAnswer_id") VALUES ('Q001REC001', 'a', 'j', NULL, TRUE, 1);
@@ -243,34 +244,37 @@ INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SE
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION003PRIN', 'Principles of processing', 'fr', 'S');
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION004BRR', 'Data breaches, Data rights', 'fr', 'S');
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION005RISK', 'Risk Management', 'fr', 'S');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION006SEC', 'Cybersecurity', 'fr', 'S');
 -- EN
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION001DATAM', 'Personal Data Management', 'en', 'S');
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION002TRANS', 'Transparency', 'en', 'S');
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION003PRIN', 'Principles of processing', 'en', 'S');
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION004BRR', 'Data breaches, Data rights', 'en', 'S');
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION005RISK', 'Risk Management', 'en', 'S');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION006SEC', 'Cybersecurity', 'en', 'S');
 -- DE
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION001DATAM', 'Personal Data Management', 'de', 'S');
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION002TRANS', 'Transparency', 'de', 'S');
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION003PRIN', 'Principles of processing', 'de', 'S');
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION004BRR', 'Data breaches, Data rights', 'de', 'S');
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION005RISK', 'Risk Management', 'de', 'S');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('SECTION006SEC', 'Cybersecurity', 'de', 'S');
 
 -- FR
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001', 'If your company processes personal data, how much personal data (i.e. of how many data subjects, data quantity per data subject on average) does it process:', 'fr', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A001', 'We don’t process personal data at all.', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A002', 'We process some personal data (but very limited) of employees.', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A003', 'We process a lot of personal data of employees.', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A004', 'We process some personal data of clients/users, and we have under 500 clients.', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A005', 'We process some personal data of clients/users, and we have between 500 and 10 000 clients/users.', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A006', 'We process some personal data of clients/users, and we have over 10 000 clients/users.', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A007', 'We monitor behaviour of data subjects as part of our business, and they are a lot.', 'fr', 'A');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001', 'Si votre société traite des données à caractère personnel, combien de données (i.e. combien des personnes, quelle quantité moyenne des données par individu) traite-t''elle:', 'fr', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A001', 'Nous ne traitons pas des données à caractère personnel.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A002', 'Nous traitons quelques données à caractère personnel des employés.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A003', 'Nous traitons beaucoup des données à caractère personnel des employés.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A004', 'Nous traitons des données à caractère personnel des clients/usagers, et nous avons moins de 500 clients/usagers.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A005', 'Nous traitons des données à caractère personnel des clients/usagers, et nous avons entre 500 et 10 000 clients/usagers.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A006', 'Nous traitons des données à caractère personnel des clients/usagers, et nous avons plus de 10 000 clients/usagers.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q001A007', 'Nous traitons des données à caractère personnel sur le comportent des individus, et elles en sont beaucoup.', 'fr', 'A');
 
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002', 'Does your company process personal data that can be sensitive (e.g., taken out of context, can be used to infer racial or ethnic origin, political opinions, religious or philosophical beliefs, trade union membership, genetic data, biometric data, sex life or sexual orientation)? (See <a href="https://www.privacy-regulation.eu/en/article-9-processing-of-special-categories-of-personal-data-GDPR.htm" target="_blank">GDPR Article 9</a>)', 'fr', 'Q');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A001', 'No, we do not process any sensitive personal data at all.', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A002', 'We do not process any sensitive data from the above but we do process some criminal records when hiring.', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A003', 'Yes, we process at least one of the above.', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A004', 'We do not know if we do.', 'fr', 'A');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002', 'Votre société traite-t''elle des données à caractère personnel sensibles (e.g., hors contexte, ces données peuvent aider deduire la race ou origine ethnique, des opinions politiques, la réligion où des opinions philosophiques, appartenance sindicale, des informations biometriques où génétiques, la vie où orientation sexuelle)? (Voir <a href="https://www.privacy-regulation.eu/en/article-9-processing-of-special-categories-of-personal-data-GDPR.htm" target="_blank">GDPR Article 9</a>)', 'fr', 'Q');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A001', 'Non, nous ne traitons pas des données à caractère personnel sensibles.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A002', 'Nous ne traitons pas des données à caractère personnel sensibles de cette liste mais nous traitons le casier judiciaire.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A003', 'Oui, nous traitons au moins une catégorie de ces données.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q002A004', 'Nous ne savons pas.', 'fr', 'A');
 
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003', 'Do you need and do you have a registry (or record) of the personal data processing that happens within your company?', 'fr', 'Q');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003A001', 'Such a registry is not needed in our business.', 'fr', 'A');
@@ -306,10 +310,10 @@ INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q0
 
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008', 'How would your company handle an incident that could be considered a personal data breach (e.g., accidental loss, destruction, alteration or theft of data that also is personal data)?', 'fr', 'Q');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A001', 'No idea, as nothing like that has ever happened to our knowledge.', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A002', 'The reaction will be case by case.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A002', 'The reaction will be entirely case by case.', 'fr', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A003', 'We would handle it internally based on our security incident management procedures.', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A004', 'We would report it to the national data protection authority within 72h.', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A005', 'We would inform the data subjects immediately.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A004', 'We would report it to the national data protection authority within 72h, and the data subjects afterwards, if required.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A005', 'We would only inform the data subjects immediately.', 'fr', 'A');
 
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009', 'How would your company handle a request for the exercise of a data subject right, if that would appear now in your mailbox?', 'fr', 'Q');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A001', 'Nothing, it would not happen to us as we don’t have personal data of externals.', 'fr', 'A');
@@ -330,8 +334,8 @@ INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q0
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011', 'What kind of risk analyses have you performed in what concerns privacy/GDPR risks?', 'fr', 'Q');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A001', 'None whatsoever, as we have no personal data.', 'fr', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A002', 'None specific to privacy so far, as we don’t have a lot of personal data.', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A003', 'We have performed at least one data protection impact assessment ', 'fr', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A004', 'We performed several data protection impact assessments before GDPR came into force, and the authority agreed with them so we keep them.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A003', 'We have performed at least one data protection impact assessment after GDPR came into force.', 'fr', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A004', 'We performed several data protection impact assessments before GDPR came into force, and the authority agreed with them so we keep them unchanged.', 'fr', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A005', 'We have a more general risk analysis.', 'fr', 'A');
 
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012', 'How many contracts with contractors/ partners have you reviewed after May 2018, with respect to GDPR clauses and personal data being processed?', 'fr', 'Q');
@@ -421,10 +425,10 @@ INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q0
 
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008', 'How would your company handle an incident that could be considered a personal data breach (e.g., accidental loss, destruction, alteration or theft of data that also is personal data)?', 'en', 'Q');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A001', 'No idea, as nothing like that has ever happened to our knowledge.', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A002', 'The reaction will be case by case.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A002', 'The reaction will be entirely case by case.', 'en', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A003', 'We would handle it internally based on our security incident management procedures.', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A004', 'We would report it to the national data protection authority within 72h.', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A005', 'We would inform the data subjects immediately.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A004', 'We would report it to the national data protection authority within 72h, and the data subjects afterwards, if required.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A005', 'We would only inform the data subjects immediately.', 'en', 'A');
 
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009', 'How would your company handle a request for the exercise of a data subject right, if that would appear now in your mailbox?', 'en', 'Q');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A001', 'Nothing, it would not happen to us as we don’t have personal data of externals.', 'en', 'A');
@@ -445,8 +449,8 @@ INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q0
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011', 'What kind of risk analyses have you performed in what concerns privacy/GDPR risks?', 'en', 'Q');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A001', 'None whatsoever, as we have no personal data.', 'en', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A002', 'None specific to privacy so far, as we don’t have a lot of personal data.', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A003', 'We have performed at least one data protection impact assessment ', 'en', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A004', 'We performed several data protection impact assessments before GDPR came into force, and the authority agreed with them so we keep them.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A003', 'We have performed at least one data protection impact assessment after GDPR came into force.', 'en', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A004', 'We performed several data protection impact assessments before GDPR came into force, and the authority agreed with them so we keep them unchanged.', 'en', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A005', 'We have a more general risk analysis.', 'en', 'A');
 
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012', 'How many contracts with contractors/ partners have you reviewed after May 2018, with respect to GDPR clauses and personal data being processed?', 'en', 'Q');
@@ -535,10 +539,10 @@ INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q0
 
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008', 'How would your company handle an incident that could be considered a personal data breach (e.g., accidental loss, destruction, alteration or theft of data that also is personal data)?', 'de', 'Q');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A001', 'No idea, as nothing like that has ever happened to our knowledge.', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A002', 'The reaction will be case by case.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A002', 'The reaction will be entirely case by case.', 'de', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A003', 'We would handle it internally based on our security incident management procedures.', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A004', 'We would report it to the national data protection authority within 72h.', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A005', 'We would inform the data subjects immediately.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A004', 'We would report it to the national data protection authority within 72h, and the data subjects afterwards, if required.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008A005', 'We would only inform the data subjects immediately.', 'de', 'A');
 
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009', 'How would your company handle a request for the exercise of a data subject right, if that would appear now in your mailbox?', 'de', 'Q');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q009A001', 'Nothing, it would not happen to us as we don’t have personal data of externals.', 'de', 'A');
@@ -559,8 +563,8 @@ INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q0
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011', 'What kind of risk analyses have you performed in what concerns privacy/GDPR risks?', 'de', 'Q');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A001', 'None whatsoever, as we have no personal data.', 'de', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A002', 'None specific to privacy so far, as we don’t have a lot of personal data.', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A003', 'We have performed at least one data protection impact assessment ', 'de', 'A');
-    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A004', 'We performed several data protection impact assessments before GDPR came into force, and the authority agreed with them so we keep them.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A003', 'We have performed at least one data protection impact assessment after GDPR came into force.', 'de', 'A');
+    INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A004', 'We performed several data protection impact assessments before GDPR came into force, and the authority agreed with them so we keep them unchanged.', 'de', 'A');
     INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q011A005', 'We have a more general risk analysis.', 'de', 'A');
 
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q012', 'How many contracts with contractors/ partners have you reviewed after May 2018, with respect to GDPR clauses and personal data being processed?', 'de', 'Q');
@@ -613,9 +617,9 @@ INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q0
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003REC004', 'It is good that your company started to inventory its data, yet it will be better to have it ready as soon as possible, to be prepared for any CNPD inspection or visit. The fuller the picture over the personal data processing that takes place within your company, the better the view over the risks incurred based on this picture, and hence the more accurate the action plans that follow.', 'fr', 'R');
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q003REC005', 'It is great that your company has a clear idea over the data processing it performs. Remember that the inventory should give an accurate and complete picture of the processing activities within your company, so it should be reviewed and maintained from one year to the next. The good news is that if it was done well once, it will be easy to update/change afterwards.', 'fr', 'R');
 
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004REC001', 'Especially if your company’s website processes personal data (e.g., it is possible to gather information about users even via Google Analytics, or users can log in for a customised experience), it  is good practice to update the privacy notice on the website, to reflect GDPR conditions (the existence of personal data processing by the company, the existence of the DPO or not, the possibility to exercise rights, etc). Normally, Art. 13 or 14 of GDPR should be followed in this case. ', 'fr', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q004REC001', 'Especially if your company’s website processes personal data (e.g., it is possible to gather information about users even via Google Analytics, or users can log in for a customised experience), it  is good practice to update the privacy notice on the website, to reflect GDPR conditions (the existence of personal data processing by the company, the existence of the DPO or not, the possibility to exercise rights, etc). Normally, <a href="https://www.privacy-regulation.eu/en/article-13-information-to-be-provided-where-personal-data-are-collected-from-the-data-subject-GDPR.htm target="_blank">GDPR Article 13</a> (or Art. 14) of GDPR should be followed in this case. ', 'fr', 'R');
 
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005REC001', 'Your company should consider informing all types of data subjects whose data it processes, of the existence of the processing, the conditions you put in place to protect their data, and their rights over their data. Your employees (interns or collaborators), clients and any other users should be informed, in this respect. You should consider following Art. 13 and 14 of GDPR when it comes to this information.', 'fr', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005REC001', 'Your company should consider informing all types of data subjects whose data it processes, of the existence of the processing, the conditions you put in place to protect their data, and their rights over their data. Your employees (interns or collaborators), clients and any other users should be informed, in this respect. You should consider following <a href="https://www.privacy-regulation.eu/en/article-13-information-to-be-provided-where-personal-data-are-collected-from-the-data-subject-GDPR.htm target="_blank">GDPR Article 13</a> and 14 of GDPR when it comes to this information.', 'fr', 'R');
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005REC002', 'Make sure all data subjects are covered (clients AND employees), and that your company follows the points mentioned by Art. 13 and 14 of GDPR.', 'fr', 'R');
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q005REC003', 'It makes sense to inform data subjects via different channels, and always with respect to the personal data in question. Stickers in areas with video surveillance as well as updated information on the intranet page, as well as general information related to the personal data processed via your website. Above all, do not forget the terms and conditions for clients and contractors, and information to employees as part of their contract (or addendum).', 'fr', 'R');
 
@@ -627,7 +631,7 @@ INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q0
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007REC003', 'While it is true that deciding on and enforcing data storage limitation is a considerable challenge for most organisations, what the GDPR and data protection authorities expect is enforcing this principle on all personal data types. Therefore, in your case, you should be able to explain (1) why for some personal data types you have this storage limitation in place, but not for other personal data types, and (2) how you plan to improve over time and hence extend storage limitation over all data types.', 'fr', 'R');
 
 
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008REC001', 'In terms of handling data breaches, GDPR is relatively strict, in that there should be a reporting made towards the data protection authorities within 72h from the moment the company becomes aware of the incident. For CNPD, there is a form that should be filled in, at the time of this reporting, answering several questions about the incident and how it has been handled. Due to these requirements, the reaction to data breaches cannot be case by case. Consider having a procedure or documented process to handle such incidents, and be sure that responsibilities have been clearly identified and actions to be performed are clear to the staff who will be involved in this process. ', 'fr', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008REC001', 'In terms of handling data breaches, GDPR is relatively strict, in that there should be a reporting made towards the data protection authorities within 72h from the moment the company becomes aware of the incident. For CNPD, there is a form that should be filled in, at the time of this reporting, answering several questions about the incident and how it has been handled. Due to these requirements, the reaction to data breaches cannot be entirely case by case. Consider having a procedure or documented process to handle such incidents, and be sure that responsibilities have been clearly identified and actions to be performed are clear to the staff who will be involved in this process. ', 'fr', 'R');
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008REC002', 'In terms of handling data breaches, GDPR is relatively strict, in that there should be a reporting made towards the data protection authorities within 72h from the moment the company becomes aware of the incident. For CNPD, there is a form that should be filled in, at the time of this reporting, answering several questions about the incident and how it has been handled. It is good that you have an incident management procedure, yet this should be amended to allow for situations where a data breach might have occurred (so, identifying the impact on personal data, linking with the appropriate staff, and ensuring the tasks are clear with regards to reaction to personal data breaches).', 'fr', 'R');
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008REC003', 'Ensure that there is a procedure or documented process to describe the concrete steps of reaction to a data breach. Data subjects don’t always need to be informed but this is an action that would be a second order decision (the first one is to report to the data protection authority).', 'fr', 'R');
 
@@ -695,7 +699,7 @@ INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q0
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007REC002', 'In order to fill in the record of processing activities, as per Art. 30 of GDPR, a duration of storage must be decided upon and enforced on the personal data that is processed by the organisation. If you discover that the storage limit has not been decided upon, then the recommendation is to consider all the important types of personal data for which there are limits that arrive from regulatory frameworks (e.g., financial data, criminal record data, anti-money laundering related data, etc). For other types of personal data for which there is no regulation to explicitly fix its storage time, the company can decide for a duration that makes sense, and take actions to put that limitation in practice for both paper and electronic support of such data', 'en', 'R');
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007REC003', 'While it is true that deciding on and enforcing data storage limitation is a considerable challenge for most organisations, what the GDPR and data protection authorities expect is enforcing this principle on all personal data types. Therefore, in your case, you should be able to explain (1) why for some personal data types you have this storage limitation in place, but not for other personal data types, and (2) how you plan to improve over time and hence extend storage limitation over all data types.', 'en', 'R');
 
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008REC001', 'In terms of handling data breaches, GDPR is relatively strict, in that there should be a reporting made towards the data protection authorities within 72h from the moment the company becomes aware of the incident. For CNPD, there is a form that should be filled in, at the time of this reporting, answering several questions about the incident and how it has been handled. Due to these requirements, the reaction to data breaches cannot be case by case. Consider having a procedure or documented process to handle such incidents, and be sure that responsibilities have been clearly identified and actions to be performed are clear to the staff who will be involved in this process. ', 'en', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008REC001', 'In terms of handling data breaches, GDPR is relatively strict, in that there should be a reporting made towards the data protection authorities within 72h from the moment the company becomes aware of the incident. For CNPD, there is a form that should be filled in, at the time of this reporting, answering several questions about the incident and how it has been handled. Due to these requirements, the reaction to data breaches cannot be entirely case by case. Consider having a procedure or documented process to handle such incidents, and be sure that responsibilities have been clearly identified and actions to be performed are clear to the staff who will be involved in this process. ', 'en', 'R');
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008REC002', 'In terms of handling data breaches, GDPR is relatively strict, in that there should be a reporting made towards the data protection authorities within 72h from the moment the company becomes aware of the incident. For CNPD, there is a form that should be filled in, at the time of this reporting, answering several questions about the incident and how it has been handled. It is good that you have an incident management procedure, yet this should be amended to allow for situations where a data breach might have occurred (so, identifying the impact on personal data, linking with the appropriate staff, and ensuring the tasks are clear with regards to reaction to personal data breaches).', 'en', 'R');
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008REC003', 'Ensure that there is a procedure or documented process to describe the concrete steps of reaction to a data breach. Data subjects don’t always need to be informed but this is an action that would be a second order decision (the first one is to report to the data protection authority).', 'en', 'R');
 
@@ -759,7 +763,7 @@ INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q0
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007REC002', 'In order to fill in the record of processing activities, as per Art. 30 of GDPR, a duration of storage must be decided upon and enforced on the personal data that is processed by the organisation. If you discover that the storage limit has not been decided upon, then the recommendation is to consider all the important types of personal data for which there are limits that arrive from regulatory frameworks (e.g., financial data, criminal record data, anti-money laundering related data, etc). For other types of personal data for which there is no regulation to explicitly fix its storage time, the company can decide for a duration that makes sense, and take actions to put that limitation in practice for both paper and electronic support of such data', 'de', 'R');
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q007REC003', 'While it is true that deciding on and enforcing data storage limitation is a considerable challenge for most organisations, what the GDPR and data protection authorities expect is enforcing this principle on all personal data types. Therefore, in your case, you should be able to explain (1) why for some personal data types you have this storage limitation in place, but not for other personal data types, and (2) how you plan to improve over time and hence extend storage limitation over all data types.', 'de', 'R');
 
-INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008REC001', 'In terms of handling data breaches, GDPR is relatively strict, in that there should be a reporting made towards the data protection authorities within 72h from the moment the company becomes aware of the incident. For CNPD, there is a form that should be filled in, at the time of this reporting, answering several questions about the incident and how it has been handled. Due to these requirements, the reaction to data breaches cannot be case by case. Consider having a procedure or documented process to handle such incidents, and be sure that responsibilities have been clearly identified and actions to be performed are clear to the staff who will be involved in this process. ', 'de', 'R');
+INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008REC001', 'In terms of handling data breaches, GDPR is relatively strict, in that there should be a reporting made towards the data protection authorities within 72h from the moment the company becomes aware of the incident. For CNPD, there is a form that should be filled in, at the time of this reporting, answering several questions about the incident and how it has been handled. Due to these requirements, the reaction to data breaches cannot be entirely case by case. Consider having a procedure or documented process to handle such incidents, and be sure that responsibilities have been clearly identified and actions to be performed are clear to the staff who will be involved in this process. ', 'de', 'R');
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008REC002', 'In terms of handling data breaches, GDPR is relatively strict, in that there should be a reporting made towards the data protection authorities within 72h from the moment the company becomes aware of the incident. For CNPD, there is a form that should be filled in, at the time of this reporting, answering several questions about the incident and how it has been handled. It is good that you have an incident management procedure, yet this should be amended to allow for situations where a data breach might have occurred (so, identifying the impact on personal data, linking with the appropriate staff, and ensuring the tasks are clear with regards to reaction to personal data breaches).', 'de', 'R');
 INSERT INTO "survey_translationkey" ("key", "text", "lang", "ttype") VALUES ('Q008REC003', 'Ensure that there is a procedure or documented process to describe the concrete steps of reaction to a data breach. Data subjects don’t always need to be informed but this is an action that would be a second order decision (the first one is to report to the data protection authority).', 'de', 'R');
 
