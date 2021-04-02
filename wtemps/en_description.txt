@@ -1,6 +1,6 @@
 Description
 
-This self-assessment tool is named Fit4GDPR to highlight the introduction to the GDPR Regulation.
+This self-assessment tool is named Fit4Privacy to highlight the introduction to the GDPR Regulation.
 
 During this self-assessment $$qnumber$$ multiple choice questions were asked. After analyzing your answers, recommendations have been provided.
 

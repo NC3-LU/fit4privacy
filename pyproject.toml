@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "csskp"
 version = "1.0.1"
-description = "Fit4GDPR is a self-assessment tool by CASES.LU."
+description = "Fit4Privacy is a self-assessment tool by CASES.LU."
 authors = [
     "Ruslan Baidan <ruslan.baidan@securitymadein.lu>",
     "Cédric Bonhomme <cedric@cedricbonhomme.org>"
@@ -10,8 +10,8 @@ license = "AGPL-3.0-or-later"
 
 readme = "README.md"
 
-homepage = "https://github.com/CASES-LU/fit4gdpr"
-repository = "https://github.com/CASES-LU/fit4gdpr"
+homepage = "https://github.com/CASES-LU/fit4privacy"
+repository = "https://github.com/CASES-LU/fit4privacy"
 
 [tool.poetry.dependencies]
 python = "^3.7"

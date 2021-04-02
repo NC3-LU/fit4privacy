@@ -26,8 +26,8 @@ msgstr ""
 "commencer un nouveau."
 
 #: templates/survey/base.html:16
-msgid "Fit4GDPR a CASES self-assessment tool!"
-msgstr "Fit4GDPR est un outil d’auto-évaluation CASES!"
+msgid "Fit4Privacy a CASES self-assessment tool!"
+msgstr "Fit4Privacy est un outil d’auto-évaluation CASES!"
 
 #: templates/survey/base.html:24
 msgid "images/logoFull-en.png"
@@ -42,8 +42,8 @@ msgid "Source code on GitHub"
 msgstr "Code source sur GitHub"
 
 #: templates/survey/base.html:53
-msgid "Version of Fit4GDPR"
-msgstr "Version de Fit4GDPR"
+msgid "Version of Fit4Privacy"
+msgstr "Version de Fit4Privacy"
 
 #: templates/survey/base.html:60
 msgid "Terms of service"
@@ -54,10 +54,10 @@ msgid "Terms of Service"
 msgstr "Conditions d'utilisation"
 
 #: templates/survey/index.html:17
-msgid "Welcome to the all new CASES self-assessment tool: Fit4GDPR"
+msgid "Welcome to the all new CASES self-assessment tool: Fit4Privacy"
 msgstr ""
 "Bienvenue dans le tout nouvel outil d'auto-évaluation CASES: "
-"Fit4GDPR"
+"Fit4Privacy"
 
 #: templates/survey/index.html:18
 msgid ""

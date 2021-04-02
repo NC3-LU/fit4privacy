@@ -38,7 +38,7 @@ def create_user(lang: str, sector: str, company_size: str, country: str):
 def handle_start_survey(request, lang: str):
     action = "/survey/start/" + lang
     question = TRANSLATION_UI["question"]["description"][lang]
-    title = "Fit4GDPR - " + TRANSLATION_UI["question"]["title"][lang]
+    title = "Fit4Privacy - " + TRANSLATION_UI["question"]["title"][lang]
 
     if request.method == "POST":
         form = InitialStartForm(data=request.POST, lang=lang)
@@ -144,7 +144,7 @@ def handle_question_answers_request(request, user: SurveyUser, question_index: i
     form.set_unique_answers(uniqueAnswers)
 
     return {
-        "title": "Fit4GDPR - "
+        "title": "Fit4Privacy - "
         + TRANSLATION_UI["question"]["question"][user.choosen_lang]
         + " "
         + str(current_question.qindex),

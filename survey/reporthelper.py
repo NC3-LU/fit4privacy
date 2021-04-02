@@ -277,14 +277,14 @@ def createAndSendReport(user: SurveyUser, lang: str):
     section = doc.sections[0]
     header = section.header
     paragraph = header.paragraphs[0]
-    paragraph.text = str(date.today()) + "\t\tFit4GDPR"
+    paragraph.text = str(date.today()) + "\t\tFit4Privacy"
     paragraph.style = doc.styles["Header"]
 
     response = HttpResponse(
         content_type="application/vnd.openxmlformats-officedocument.wordprocessingml.document"
     )
     response["Content-Disposition"] = (
-        "attachment; filename=Report_Fit4GDPR_"
+        "attachment; filename=Report_Fit4Privacy_"
         + str(date.today())
         + "_"
         + lang
