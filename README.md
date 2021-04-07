@@ -1,7 +1,7 @@
 # Fit4Privacy
 
 Fit4Privacy is a self-assessment tool by [CASES](https://www.cases.lu)
-to help business owners implement a better cybersecurity strategy.
+to help business owners implement a better data protection and privacy approach.
 
 
 ## Deployment
