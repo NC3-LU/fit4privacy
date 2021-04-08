@@ -3,7 +3,6 @@
 Fit4Privacy is a self-assessment tool by [CASES](https://www.cases.lu)
 to help business owners implement a better data protection and privacy approach.
 
-
 ## Deployment
 
 ### Requirements
@@ -16,8 +15,8 @@ $ sudo apt install gettext postgresql
 ### Set up your Python environment
 
 ```bash
-$ pyenv install 3.8.1 # install Python
-$ pyenv global 3.8.1 # make this version default for the whole system
+$ pyenv install 3.9.2 # install Python
+$ pyenv global 3.9.2 # make this version default for the whole system
 $ pyenv versions # check
 ```
 
@@ -82,7 +81,7 @@ $ poetry run python manage.py compilemessages
 If you want to update the translations, you must first run:
 
 ```bash
-$ python manage.py makemessages # extract the translations
+$ python manage.py makemessages -a --keep-pot # extract the translations
 ```
 
 Then you can use a tool like
@@ -96,4 +95,4 @@ the previously mentioned command.
 This software is licensed under
 [GNU Affero General Public License version 3](https://www.gnu.org/licenses/agpl-3.0.html)
 
-Copyright (C) 2019-2020 SMILE gie securitymadein.lu
+Copyright (C) 2019-2021 SECURITYMADEIN.LU
