@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-30 07:45+0000\n"
-"PO-Revision-Date: 2019-10-30 08:46+0100\n"
+"POT-Creation-Date: 2021-04-08 06:22+0000\n"
+"PO-Revision-Date: 2021-04-08 08:24+0200\n"
 "Last-Translator: Cédric Bonhomme <cedric@cedricbonhomme.org>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -16,54 +16,84 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 2.2.4\n"
+"X-Generator: Poedit 2.3\n"
 
-#: survey/views.py:115
+#: csskp/settings.py:126
+msgid "English"
+msgstr "Anglais"
+
+#: csskp/settings.py:127
+msgid "French"
+msgstr "Français"
+
+#: csskp/settings.py:128
+msgid "Deutsch"
+msgstr "Allemand"
+
+#: survey/views.py:103
+msgid "To generate a report you have to finish the survey."
+msgstr ""
+
+#: survey/views.py:276
 msgid ""
 "We could not find a survey with the requested key, please start a new one."
 msgstr ""
 "Nous n'avons pas pu trouver un sondage avec la clé demandée, veuillez en "
 "commencer un nouveau."
 
-#: templates/survey/base.html:16
+#: survey/views.py:306
+msgid "Feedback sending errors: "
+msgstr ""
+
+#: templates/survey/base.html:27
 msgid "Fit4Privacy a CASES self-assessment tool!"
 msgstr "Fit4Privacy est un outil d’auto-évaluation CASES!"
 
-#: templates/survey/base.html:24
+#: templates/survey/base.html:60
 msgid "images/logoFull-en.png"
 msgstr "images/logoFull-fr.png"
 
-#: templates/survey/base.html:41 templates/survey/base.html:42
+#: templates/survey/base.html:93 templates/survey/base.html:94
 msgid "A service provided by CASES.LU"
 msgstr "Un service fourni par CASES.LU"
 
-#: templates/survey/base.html:48 templates/survey/base.html:49
+#: templates/survey/base.html:100 templates/survey/base.html:101
 msgid "Source code on GitHub"
 msgstr "Code source sur GitHub"
 
-#: templates/survey/base.html:53
+#: templates/survey/base.html:105
 msgid "Version of Fit4Privacy"
 msgstr "Version de Fit4Privacy"
 
-#: templates/survey/base.html:60
+#: templates/survey/base.html:112
 msgid "Terms of service"
 msgstr "Conditions d'utilisation"
 
-#: templates/survey/base.html:60
+#: templates/survey/base.html:112
 msgid "Terms of Service"
 msgstr "Conditions d'utilisation"
 
 #: templates/survey/index.html:17
-msgid "Welcome to the all new CASES self-assessment tool: Fit4Privacy"
-msgstr ""
-"Bienvenue dans le tout nouvel outil d'auto-évaluation CASES: "
-"Fit4Privacy"
+msgid "Welcome to the CASES self-assessment tool: Fit4Privacy"
+msgstr "Bienvenue dans l'outil d'auto-évaluation CASES: Fit4Privacy"
 
 #: templates/survey/index.html:18
 msgid ""
-"Assuming your company is processing personal data and has its establishment in the EU/or is offering goods or services to individuals in the Union, or is monitoring their behavior that is taking place within the Union, please answer the following questions (See <a href=\"https://www.privacy-regulation.eu/en/article-3-territorial-scope-GDPR.htm\" target=\"_blank\">GDPR Article 3</a>). These answers will be useful to provide you with more specific recommendations, once the self-assessment form has been filed."
+"Assuming your company is processing personal data and has its establishment "
+"in the EU/or is offering goods or services to individuals in the Union, or "
+"is monitoring their behavior that is taking place within the Union, please "
+"answer the following questions (See <a href=\"https://www.privacy-regulation."
+"eu/en/article-3-territorial-scope-GDPR.htm\" target=\"_blank\">GDPR Article "
+"3</a>). These answers will be useful to provide you with more specific "
+"recommendations, once the self-assessment form has been filed."
 msgstr ""
-"Assuming your company is processing personal data and has its establishment in the EU/or is offering goods or services to individuals in the Union, or is monitoring their behavior that is taking place within the Union, please answer the following questions. These answers will be useful to provide you with more specific recommendations, once the self-assessment form has been filed."
+"Assuming your company is processing personal data and has its establishment "
+"in the EU/or is offering goods or services to individuals in the Union, or "
+"is monitoring their behavior that is taking place within the Union, please "
+"answer the following questions. These answers will be useful to provide you "
+"with more specific recommendations, once the self-assessment form has been "
+"filed."
+
 #: templates/survey/index.html:51
 msgid "Continue a previous survey"
 msgstr "Continuer une enquête précédente"
@@ -79,19 +109,18 @@ msgid "Confirm"
 msgstr "Confirmer"
 
 #~ msgid ""
-#~ "This is the list of recommendations to improve the maturity "
-#~ "of your company in the field of GDPR, provided that your answers did correctly "
+#~ "This is the list of recommendations to improve the maturity of your "
+#~ "company in the field of GDPR, provided that your answers did correctly "
 #~ "reflect the state in your company. Also keep in mind that it is a self-"
 #~ "assessment and only scratches the surface of the information security "
 #~ "maturity level and thus, we are not liable for the results of this survey."
 #~ msgstr ""
-#~ "Voici la liste des recommandations visant à améliorer la maturité de votre entreprise "
-#~ "concernant le GDPR, à condition que vos "
-#~ "réponses reflètent correctement l'état de votre entreprise. N'oubliez pas "
-#~ "non plus qu'il s'agit d'une auto-évaluation et qu'elle ne fait "
-#~ "qu'effleurer le niveau de maturité de la sécurité de l'information. Par "
-#~ "conséquent, nous ne sommes pas responsables des résultats de cette "
-#~ "enquête."
+#~ "Voici la liste des recommandations visant à améliorer la maturité de "
+#~ "votre entreprise concernant le GDPR, à condition que vos réponses "
+#~ "reflètent correctement l'état de votre entreprise. N'oubliez pas non plus "
+#~ "qu'il s'agit d'une auto-évaluation et qu'elle ne fait qu'effleurer le "
+#~ "niveau de maturité de la sécurité de l'information. Par conséquent, nous "
+#~ "ne sommes pas responsables des résultats de cette enquête."
 
 #~ msgid "You can request a Diagnostic"
 #~ msgstr "Vous pouvez demander un Diagnostic"
@@ -105,12 +134,3 @@ msgstr "Confirmer"
 #~| msgid "images/logoFull-en.png"
 #~ msgid "images/github-9-512.png"
 #~ msgstr "images/logoFull-fr.png"
-
-#~ msgid "English"
-#~ msgstr "Anglais"
-
-#~ msgid "French"
-#~ msgstr "Français"
-
-#~ msgid "Deutsch"
-#~ msgstr "Allemand"
