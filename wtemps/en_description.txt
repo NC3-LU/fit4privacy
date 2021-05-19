@@ -1,7 +1,8 @@
 Description
 
-This self-assessment tool is named Fit4Privacy to highlight the introduction to the GDPR Regulation.
+This self-assessment tool called Fit4Privacy is aimed to help you understand to what extent your organisation respects data protection requirements. In this version of the tool, the baseline is considered to be the General Data Protection Regulation (EU 2016/679). 
 
-During this self-assessment $$qnumber$$ multiple choice questions were asked. After analyzing your answers, recommendations have been provided.
 
-Finally, you can download this document in French, English or German, which will help you to communicate the results to your suppliers if necessary.
+During this self-assessment, $$qnumber$$ multiple choice questions were asked. After analysing your answers, below you can find the recommendations suggested.
+
+You can download this document in French, English or German. Like this, it will help you communicate the results to your colleagues, management or third-parties if necessary.
