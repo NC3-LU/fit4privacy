@@ -5,4 +5,4 @@ Cet outil d'auto-évaluation, nommé Fit4Privacy, a pour objectif l'auto-evaluat
 
 Durant cette auto-evaluation $$qnumber$$ questions à choix multiple vous ont été posées. Après avoir analysé vos réponses, des recommandations sont fournies ci-joint.
 
-Finalement, vous pouvez télécharger ce document en français, anglais ou en allemand ce qui vous aidera pour communiquer les résultats à vos collègues, au supérieurs ou a vos parties tierces si besoin.
+Finalement, vous pouvez télécharger ce document en français, anglais ou en allemand ce qui vous aidera pour communiquer les résultats à vos collègues, au supérieurs ou a vos parties tierces si besoin. N'oubliez pas que le RGPD concerne la responsabilité : votre entreprise doit mettre en place des mesures pour pouvoir démontrer qu'elle respecte le RGPD et que ces mesures sont efficaces.

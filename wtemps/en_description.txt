@@ -5,4 +5,4 @@ This self-assessment tool called Fit4Privacy is aimed to help you understand to 
 
 During this self-assessment, $$qnumber$$ multiple choice questions were asked. After analysing your answers, below you can find the recommendations suggested.
 
-You can download this document in French, English or German. Like this, it will help you communicate the results to your colleagues, management or third-parties if necessary.
+You can download this document in French, English or German. Like this, it will help you communicate the results to your colleagues, management or third-parties if necessary. Remember that GDPR is about accountability: your company is expected to put measures in place to be able to demonstrate it is respecting GDPR, and that these measure are effective.
