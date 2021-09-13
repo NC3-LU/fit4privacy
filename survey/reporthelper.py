@@ -63,8 +63,8 @@ def getRecommendations(user: SurveyUser, lang: str):
                     rec.forAnswer.question.service_category.titleKey
                 ]
 
-                transalted_recommendation = recommendations_translations[rec.textKey]
-                if is_recommendation_already_added(transalted_recommendation, finalReportRecs):
+                translated_recommendation = recommendations_translations[rec.textKey]
+                if is_recommendation_already_added(translated_recommendation, finalReportRecs):
                     continue
 
                 if category_name not in finalReportRecs:
@@ -211,7 +211,7 @@ def createAndSendReport(user: SurveyUser, lang: str):
         point_number = 1
         for recommendation in items:
             doc.add_paragraph(
-                str(point_number) + ". " + strip_tags(recommendation), "List Paragraph"
+                str(point_number) + ". " + recommendation, "List Paragraph"
             )
             point_number += 1
 
