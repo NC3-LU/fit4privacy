@@ -19,6 +19,15 @@ import matplotlib.pyplot as plt
 from io import StringIO
 from html.parser import HTMLParser
 
+import docx
+from docx import Document
+from docx.shared import Cm, Pt
+# from docx.enum.text import WD_ALIGN_PARAGRAPH
+from docx.enum.dml import MSO_THEME_COLOR_INDEX
+from datetime import date
+import re
+
+
 class MLStripper(HTMLParser):
     def __init__(self):
         super().__init__()
@@ -86,11 +95,6 @@ def is_recommendation_already_added(recommendation: str, recommendations: dict):
 def createAndSendReport(user: SurveyUser, lang: str):
     """Generates the report as a .docx file, then returns it to the view.
     """
-    from docx import Document
-    from docx.shared import Cm, Pt
-    from docx.enum.style import WD_STYLE_TYPE
-    from docx.enum.text import WD_ALIGN_PARAGRAPH
-    from datetime import date
 
     filepath = settings.BASE_DIR + "/wtemps/"
 
@@ -210,9 +214,20 @@ def createAndSendReport(user: SurveyUser, lang: str):
         doc.add_heading(category, level=2)
         point_number = 1
         for recommendation in items:
-            doc.add_paragraph(
-                str(point_number) + ". " + recommendation, "List Paragraph"
-            )
+            # Create hyperlinks in the document.
+            split_links = re.split('\<a href=\"(.+?)\"\starget=\"_blank\"\>(\w+)\<\/a\>', recommendation)
+            elements_number = len(split_links)
+            if elements_number > 1:
+                paragraph = doc.add_paragraph(str(point_number) + ". ", "List Paragraph")
+                for index, string_part in enumerate(split_links):
+                    if index % 3 == 0:
+                        paragraph.add_run(string_part)
+                        if elements_number > index + 1:
+                            add_hyperlink(paragraph, split_links[index + 2], split_links[index + 1])
+            else:
+                doc.add_paragraph(
+                    str(point_number) + ". " + strip_tags(recommendation), "List Paragraph"
+                )
             point_number += 1
 
     doc.add_page_break()
@@ -407,3 +422,31 @@ def get_formatted_translations(lang: str, type: str):
         translation_key_values[translation.key] = translation.text
 
     return translation_key_values
+
+
+def add_hyperlink(paragraph, text: str, url: str):
+    # This gets access to the document.xml.rels file and gets a new relation id value
+    part = paragraph.part
+    r_id = part.relate_to(url, docx.opc.constants.RELATIONSHIP_TYPE.HYPERLINK, is_external=True)
+
+    # Create the w:hyperlink tag and add needed values
+    hyperlink = docx.oxml.shared.OxmlElement('w:hyperlink')
+    hyperlink.set(docx.oxml.shared.qn('r:id'), r_id, )
+
+    # Create a w:r element and a new w:rPr element
+    new_run = docx.oxml.shared.OxmlElement('w:r')
+    rPr = docx.oxml.shared.OxmlElement('w:rPr')
+
+    # Set link color and underline
+    c = docx.oxml.shared.OxmlElement('w:color')
+    c.set(docx.oxml.shared.qn('w:val'), 'FF8822')
+    rPr.append(c)
+
+    # Join all the xml elements together add add the required text to the w:r element
+    new_run.append(rPr)
+    new_run.text = text
+    hyperlink.append(new_run)
+
+    paragraph._p.append(hyperlink)
+
+    return hyperlink
