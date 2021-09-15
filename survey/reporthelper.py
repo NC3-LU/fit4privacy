@@ -215,7 +215,7 @@ def createAndSendReport(user: SurveyUser, lang: str):
         point_number = 1
         for recommendation in items:
             # Create hyperlinks in the document.
-            split_links = re.split('\<a href=\"(.+?)\"\starget=\"_blank\"\>(\w+)\<\/a\>', recommendation)
+            split_links = re.split('\<a href=\"(.+?)\"\starget=\"_blank\"\>([\w\s]+)\<\/a\>', recommendation)
             elements_number = len(split_links)
             if elements_number > 1:
                 paragraph = doc.add_paragraph(str(point_number) + ". ", "List Paragraph")
